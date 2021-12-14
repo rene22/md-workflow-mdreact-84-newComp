@@ -1,0 +1,104 @@
+{
+  "name": "RW7006",
+  "navigation": "Change Hardware for Customer",
+  "frame": [
+    {
+      "id": "2",
+      "type": "switch-type1"
+    },
+    {
+      "id": "3",
+      "fields": [
+        {
+          "id": "CSTNAM",
+          "fldTyp": "A",
+          "fldLen": "35"
+        },
+        {
+          "id": "FSRLN",
+          "fldTyp": "A",
+          "fldLen": "7"
+        },
+        {
+          "id": "FPARN",
+          "fldTyp": "N",
+          "fldLen": "3"
+        },
+        {
+          "id": "FDSC",
+          "fldTyp": "A",
+          "fldLen": "35"
+        }
+      ],
+      "type": "search-type1",
+      "enable": "true",
+      "cols": "2",
+      "buttons": [
+        "SEARCH",
+        "CLEAR"
+      ]
+    },
+    {
+      "id": "4",
+      "type": "table-type1",
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "SRLNBR",
+          "fldTyp": "A",
+          "fldLen": "7"
+        },
+        {
+          "id": "PARNBR",
+          "fldTyp": "A",
+          "fldLen": "3"
+        },
+        {
+          "id": "MCHDSC",
+          "fldTyp": "A",
+          "fldLen": "35"
+        },
+        {
+          "id": "NEWSRL",
+          "fldTyp": "A",
+          "fldLen": "7"
+        },
+        {
+          "id": "NEWPAR",
+          "fldTyp": "N",
+          "fldLen": "3"
+        },
+        {
+          "id": "NEWDSC",
+          "fldTyp": "A",
+          "fldLen": "35"
+        },
+        {
+          "id": "PRVSRL",
+          "fldTyp": "A",
+          "fldLen": "7"
+        },
+        {
+          "id": "PRVPAR",
+          "fldTyp": "N",
+          "fldLen": "3"
+        },
+        {
+          "id": "PRVDSC",
+          "fldTyp": "A",
+          "fldLen": "35"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "buttons": [
+        "BACK",
+        "REFRESH",
+        "FINTRN",
+        "STRTRN"
+      ],
+      "type": "button-group-type1"
+    }
+  ]
+}

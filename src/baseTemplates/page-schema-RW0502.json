@@ -1,0 +1,37 @@
+{
+  "name": "RW0502",
+  "navigation": "Object Group Level Details",
+  "frame": [
+    {
+      "id": "2",
+      "dropdowns": [
+        "MDRLOC",
+        "MDLVL"
+      ],
+      "type": "action-type2",
+      "enable": "true",
+      "fields": [
+        {
+          "id": "OGDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "OGREQD",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ],
+      "buttons": [
+        "BACK",
+        "SAVE",
+        "SAVENEXT",
+        "DELETE",
+        "OBJGRP"
+      ]
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

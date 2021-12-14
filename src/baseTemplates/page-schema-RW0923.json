@@ -1,0 +1,38 @@
+{
+  "name": "RW0923",
+  "navigation": "Acceptance Group Type for Level",
+  "frame": [
+    {
+      "id": "2",
+      "dropdowns": [
+        "MDAGP",
+        "RLRLOC",
+        "MDLVL"
+      ],
+      "type": "action-type2",
+      "enable": "true",
+      "fields": [
+        {
+          "id": "MDGRPT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDGTDS",
+          "fldTyp": "A",
+          "fldLen": "50"
+        }
+      ],
+      "buttons": [
+        "BACK",
+        "BROWSE",
+        "SAVE",
+        "SAVENEXT",
+        "DELETE"
+      ]
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

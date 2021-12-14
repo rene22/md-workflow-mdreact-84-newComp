@@ -1,0 +1,104 @@
+{
+  "name": "RW0505",
+  "navigation": "Object Group Installation History",
+  "frame": [
+    {
+      "id": "2",
+      "dropdowns": [
+        "MDRLOC",
+        "OGLVL"
+      ],
+      "type": "action-type1",
+      "enable": "true",
+      "fields": [
+        {
+          "id": "OGNAME",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "OGDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        }
+      ],
+      "cols": "2"
+    },
+    {
+      "id": "3",
+      "type": "position-type1",
+      "fields": [
+        {
+          "id": "PIDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "table-type1",
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "OGIDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "OGITIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MDAGP",
+          "fldTyp": "A",
+          "fldLen": "4"
+        },
+        {
+          "id": "MDRFP",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MHDSC",
+          "fldTyp": "A",
+          "fldLen": "160"
+        },
+        {
+          "id": "OGCVER",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "OGOCNT",
+          "fldTyp": "N",
+          "fldLen": "7"
+        }
+      ],
+      "colType": [
+        {
+          "id": "OGIDAT",
+          "type": "link",
+          "button": "CLICK"
+        },
+        {
+          "id": "PIDAT",
+          "type": "position"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "buttons": [
+        "BACK",
+        "POSITION",
+        "REFRESH"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

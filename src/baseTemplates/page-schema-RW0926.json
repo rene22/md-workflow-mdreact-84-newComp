@@ -1,0 +1,43 @@
+{
+  "name": "RW0926",
+  "navigation": "User in Group",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDGRP",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "UPDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        }
+      ],
+      "buttons": [
+        "BACK",
+        "BROWSE",
+        "SAVE",
+        "SAVENEXT",
+        "DELETE"
+      ],
+      "type": "action-type2",
+      "enable": "true"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

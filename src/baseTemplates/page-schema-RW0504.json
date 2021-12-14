@@ -1,0 +1,122 @@
+{
+  "name": "RW0504",
+  "navigation": "Object Group Details",
+  "frame": [
+    {
+      "id": "2",
+      "dropdowns": [
+        "MDRLOC",
+        "OGLVL"
+      ],
+      "type": "action-type2",
+      "enable": "true",
+      "fields": [
+        {
+          "id": "OGNAME",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "OGDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "OGCVER",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "OGAUTV",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "OGVERV",
+          "fldTyp": "N",
+          "fldLen": "3"
+        },
+        {
+          "id": "OGVERR",
+          "fldTyp": "N",
+          "fldLen": "3"
+        },
+        {
+          "id": "OGVERM",
+          "fldTyp": "N",
+          "fldLen": "3"
+        },
+        {
+          "id": "OGINCV",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "OGINCR",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "OGINCM",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "OGCNTV",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "OGCNTR",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "OGCNTM",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "OGVDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "OGVTIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "OGVUSR",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "OGIDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "OGITIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        }
+      ],
+      "buttons": [
+        "BACK",
+        "SAVE",
+        "SAVENEXT",
+        "DELETE",
+        "OBJGRO",
+        "OBJGRR",
+        "RESETM",
+        "RESETR",
+        "RESETV"
+      ]
+    }
+  ],
+  "links": [
+    "HOME",
+    "OBJGIV"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "RW0904",
+  "navigation": "Task Types",
+  "frame": [
+    {
+      "id": "2",
+      "type": "position-type1",
+      "fields": [
+        {
+          "id": "PTSKT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "SFLOPT",
+          "type": "radio"
+        },
+        {
+          "id": "SFLOPT",
+          "type": "link",
+          "button": "SELECT"
+        },
+        {
+          "id": "PTSKT",
+          "type": "position"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "SFLOPT",
+          "fldTyp": "O",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDTSKT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDLREQ",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "buttons": [
+        "ADD",
+        "BACK",
+        "POSITION",
+        "REFRESH"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

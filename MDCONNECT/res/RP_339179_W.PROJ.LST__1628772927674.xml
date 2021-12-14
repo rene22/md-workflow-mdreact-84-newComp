@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operation>
+    <container type="GLOBAL">
+        <field id="ACTION" value="LIST"/>
+        <field id="FUNCTION" value="W.PROJ.LST"/>
+        <field id="LANGID" value="E"/>
+        <field id="REQUESTCODE" value=""/>
+        <field id="SCREEN" value="RW0001"/>
+        <field id="THREAD" value="1"/>
+    </container>
+    <container type="REQUESTCODELIST">
+        <array type="button">
+            <item id="ADD" value="Add"/>
+            <item id="REFRESH" value="Refresh"/>
+            <item id="SEARCH" value="Search"/>
+            <item id="REPORT" value="Report"/>
+            <item id="BROWSE" value=""/>
+            <item id="POSITION" value=""/>
+            <item id="SELECT" value=""/>
+        </array>
+        <array type="link" value="Links">
+            <item id="CALENDAR" value="Installation Calendar"/>
+            <item id="RFPLST" value="RFP Listing"/>
+            <item id="TASKLST" value="Tasks"/>
+            <item id="OBJLST" value="Object Requests"/>
+            <item id="PTIMLST" value="Time Entry"/>
+            <item id="LIVLST" value="Conflict List"/>
+            <item id="OBJGRP" value="Object Groups"/>
+            <item id="RPTSET" value="Report Settings"/>
+            <item id="SETTINGS" value="Settings"/>
+        </array>
+    </container>
+    <container type="SCREEN">
+        <caption value="Projects"/>
+        <field id="ATTACHVIS" value="true" editable="false" visible="false"/>
+        <field id="URLVIS" value="false" editable="false" visible="false"/>
+        <field id="FATT" value="false" label="Attachments" editable="true"/>
+        <field id="FIGRP" value="" label="Involved Group" browse="true" editable="true"/>
+        <field id="FINUS" value="" label="Involved User" browse="true" editable="true"/>
+        <field id="FPROJ" value="" label="Project" editable="true"/>
+        <field id="FUSER" value="" label="Requester" browse="true" editable="true"/>
+        <field id="XLSPTH" value="" editable="false" visible="false"/>
+        <field id="FCFLDP" value="" label="Custom Field" editable="true"/>
+        <field id="FEDTF" value="0" label="Min Comp Date" editable="true"/>
+        <field id="FEDTT" value="0" label="Max Comp Date" editable="true"/>
+        <field id="FPRI" value="" label="Priority" editable="true"/>
+        <field id="FRFP" value="0" label="RFP" browse="true" editable="true"/>
+        <field id="PPROJ" value="" editable="true"/>
+        <field id="FAGP" value="" label="Application" editable="true"/>
+        <field id="FCVAL" value="" label="Custom Value" editable="true"/>
+        <field id="FDSC" value="" label="Desc/Comments" editable="true"/>
+        <field id="FPRJT" value="" label="Project Type" editable="true"/>
+        <field id="FRLOC" value="" label="Location" editable="true"/>
+        <field id="FSTS" value="" label="Status" editable="true"/>
+        <grid id="SFL01" pagenr="1" maxpages="2">
+            <header>
+                <item id="SFLOPT" value="" linklist="2=Edit,3=Copy,5=View,C=Change Status,T=Project Tasks,A=Active RFPs,R=Installed RFPs,O=Project Objects" linklistvalue="Options" />
+                <item id="MDPROJ" value="Project" />
+                <item id="MMDSC" value="Project Title" />
+                <item id="MMTCNT" value="Tasks" />
+                <item id="MMPRJT" value="Type" />
+                <item id="MMUSER" value="Requester" />
+                <item id="MMSTS" value="Status" />
+                <item id="MMPRI" value="Priority" />
+                <item id="MMEDAT" value="Comp. Date" />
+                <item id="ATTACH" value="" />
+                <item id="URL" value="URL" />
+                <item id="URLLNK" value="" />
+            </header>
+            <rows>
+                <row nr="1">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="AMERICAN" editable="false" />
+                    <item id="MMDSC" value="Demo Project for American" editable="false" />
+                    <item id="MMTCNT" value="8" editable="false" />
+                    <item id="MMPRJT" value="*DFT" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="7" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="20180813" editable="false" />
+                    <item id="ATTACH" value="" editable="false" visible="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+                <row nr="2">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="CSSB" editable="false" />
+                    <item id="MMDSC" value="CSSB" editable="false" />
+                    <item id="MMTCNT" value="7" editable="false" />
+                    <item id="MMPRJT" value="*DFT" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="7" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="20190807" editable="false" />
+                    <item id="ATTACH" value="" editable="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+                <row nr="3">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="ED201" editable="false" />
+                    <item id="MMDSC" value="New Project" editable="false" />
+                    <item id="MMTCNT" value="0" editable="false" />
+                    <item id="MMPRJT" value="DEVOPS" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="3" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="20200331" editable="false" />
+                    <item id="ATTACH" value="" editable="false" visible="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+                <row nr="4">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="MDCMS" editable="false" />
+                    <item id="MMDSC" value="MDCMS and Jira" editable="false" />
+                    <item id="MMTCNT" value="5" editable="false" />
+                    <item id="MMPRJT" value="JIRA" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="3" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="20210531" editable="false" />
+                    <item id="ATTACH" value="" editable="false" visible="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+                <row nr="5">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="MDDEMO" editable="false" />
+                    <item id="MMDSC" value="Demo" editable="false" />
+                    <item id="MMTCNT" value="77" editable="false" />
+                    <item id="MMPRJT" value="DEVOPS" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="3" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="20200430" editable="false" />
+                    <item id="ATTACH" value="" editable="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+                <row nr="6">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="MDDEMOCOPY" editable="false" />
+                    <item id="MMDSC" value="Demo" editable="false" />
+                    <item id="MMTCNT" value="1" editable="false" />
+                    <item id="MMPRJT" value="*DFT" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="6" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="20200511" editable="false" />
+                    <item id="ATTACH" value="" editable="false" visible="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+                <row nr="7">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="MDDEMOIFS" editable="false" />
+                    <item id="MMDSC" value="IFS Walkthru" editable="false" />
+                    <item id="MMTCNT" value="1" editable="false" />
+                    <item id="MMPRJT" value="*DFT" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="7" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="20200123" editable="false" />
+                    <item id="ATTACH" value="" editable="false" visible="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+                <row nr="8">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="MDSMPL" editable="false" />
+                    <item id="MMDSC" value="Demo with Single Test Environment" editable="false" />
+                    <item id="MMTCNT" value="17" editable="false" />
+                    <item id="MMPRJT" value="DEVOPS" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="I" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="20170731" editable="false" />
+                    <item id="ATTACH" value="" editable="false" visible="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+                <row nr="9">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="MND" editable="false" />
+                    <item id="MMDSC" value="MD-NA Demo" editable="false" />
+                    <item id="MMTCNT" value="12" editable="false" />
+                    <item id="MMPRJT" value="JIRA" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="4" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="0" editable="false" />
+                    <item id="ATTACH" value="" editable="false" visible="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+                <row nr="10">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="MNPC" editable="false" />
+                    <item id="MMDSC" value="MD-NA Process Control" editable="false" />
+                    <item id="MMTCNT" value="17" editable="false" />
+                    <item id="MMPRJT" value="JIRA" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="3" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="0" editable="false" />
+                    <item id="ATTACH" value="" editable="false" visible="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+                <row nr="11">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="MULICHECKOUT" editable="false" />
+                    <item id="MMDSC" value="mulicheckout" editable="false" />
+                    <item id="MMTCNT" value="2" editable="false" />
+                    <item id="MMPRJT" value="*DFT" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="V" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="20161231" editable="false" />
+                    <item id="ATTACH" value="" editable="false" visible="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+                <row nr="12">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="NEWPRJ" editable="false" />
+                    <item id="MMDSC" value="New Project" editable="false" />
+                    <item id="MMTCNT" value="6" editable="false" />
+                    <item id="MMPRJT" value="DEVOPS" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="V" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="20180131" editable="false" />
+                    <item id="ATTACH" value="" editable="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+                <row nr="13">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="PROD" editable="false" />
+                    <item id="MMDSC" value="PRODUCTION BUG Fixes" editable="false" />
+                    <item id="MMTCNT" value="1" editable="false" />
+                    <item id="MMPRJT" value="*DFT" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="7" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="20180116" editable="false" />
+                    <item id="ATTACH" value="" editable="false" visible="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+                <row nr="14">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="PROJ_APP" editable="false" />
+                    <item id="MMDSC" value="Project with application" editable="false" />
+                    <item id="MMTCNT" value="3" editable="false" />
+                    <item id="MMPRJT" value="*DFT" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="7" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="20180406" editable="false" />
+                    <item id="ATTACH" value="" editable="false" visible="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+                <row nr="15">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="PROJ_NOAPP" editable="false" />
+                    <item id="MMDSC" value="Project with no application defined." editable="false" />
+                    <item id="MMTCNT" value="0" editable="false" />
+                    <item id="MMPRJT" value="*DFT" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="7" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="20190807" editable="false" />
+                    <item id="ATTACH" value="" editable="false" visible="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+                <row nr="16">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="PROJ1" editable="false" />
+                    <item id="MMDSC" value="Project Level Requests" editable="false" />
+                    <item id="MMTCNT" value="1" editable="false" />
+                    <item id="MMPRJT" value="*DFT" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="7" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="20180116" editable="false" />
+                    <item id="ATTACH" value="" editable="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+                <row nr="17">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="PROJ2" editable="false" />
+                    <item id="MMDSC" value="Project Process Two" editable="false" />
+                    <item id="MMTCNT" value="0" editable="false" />
+                    <item id="MMPRJT" value="*DFT" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="7" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="20150408" editable="false" />
+                    <item id="ATTACH" value="" editable="false" visible="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+                <row nr="18">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="PROJ3" editable="false" />
+                    <item id="MMDSC" value="Project Three Planning" editable="false" />
+                    <item id="MMTCNT" value="1" editable="false" />
+                    <item id="MMPRJT" value="*DFT" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="7" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="20180116" editable="false" />
+                    <item id="ATTACH" value="" editable="false" visible="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+                <row nr="19">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="ROCKY" editable="false" />
+                    <item id="MMDSC" value="rocky" editable="false" />
+                    <item id="MMTCNT" value="0" editable="false" />
+                    <item id="MMPRJT" value="*DFT" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="7" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="20180116" editable="false" />
+                    <item id="ATTACH" value="" editable="false" visible="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+                <row nr="20">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDPROJ" value="ROCKY2" editable="false" />
+                    <item id="MMDSC" value="rocky" editable="false" />
+                    <item id="MMTCNT" value="0" editable="false" />
+                    <item id="MMPRJT" value="*DFT" editable="false" />
+                    <item id="MMUSER" value="DONNAW" editable="false" />
+                    <item id="MMSTS" value="7" editable="false" />
+                    <item id="MMPRI" value="3" editable="false" />
+                    <item id="MMEDAT" value="20170113" editable="false" />
+                    <item id="ATTACH" value="" editable="false" visible="false" />
+                    <item id="URL" value="" editable="false" visible="false" />
+                    <item id="URLLNK" value="" editable="false" visible="false" />
+                </row>
+            </rows>
+        </grid>
+    </container>
+</operation> 

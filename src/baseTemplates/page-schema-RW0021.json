@@ -1,0 +1,482 @@
+{
+  "name": "RW0021",
+  "navigation": "Task Details",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "MMDSC",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDTASK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDTDSC",
+          "fldTyp": "A",
+          "fldLen": "240"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "fields": [
+        {
+          "id": "MDSTSK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDREQU",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDREQD",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDODAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MDOTIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MDIREF",
+          "fldTyp": "A",
+          "fldLen": "20"
+        },
+        {
+          "id": "MDSUMM",
+          "fldTyp": "A",
+          "fldLen": "240"
+        },
+        {
+          "id": "MDDUED",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MDDUET",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "JIRAREF",
+          "fldTyp": "A",
+          "fldLen": "20"
+        },
+        {
+          "id": "SNOWREF",
+          "fldTyp": "A",
+          "fldLen": "20"
+        }
+      ],
+      "dropdowns": [
+        "MDTSKT",
+        "MDPRI",
+        "MDTSKS"
+      ],
+      "type": "action-type1",
+      "enable": "true",
+      "cols": "2"
+    },
+    {
+      "id": "4",
+      "fields": [
+        {
+          "id": "MDLINE",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "dropdowns": [
+        "MDAGP",
+        "MDRLOC",
+        "MDLVL"
+      ],
+      "type": "action-type1",
+      "enable": "true",
+      "fields": [
+        {
+          "id": "MDAGRP",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDAGDS",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDAUSR",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDAUDS",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDTSTG",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDTGDS",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDTSTU",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDTUDS",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDHRSE",
+          "fldTyp": "N",
+          "fldLen": "9"
+        },
+        {
+          "id": "MDHRSA",
+          "fldTyp": "N",
+          "fldLen": "9"
+        },
+        {
+          "id": "MDCSTE",
+          "fldTyp": "N",
+          "fldLen": "11"
+        },
+        {
+          "id": "MDCSTA",
+          "fldTyp": "N",
+          "fldLen": "11"
+        }
+      ],
+      "cols": "2"
+    },
+    {
+      "id": "6",
+      "type": "table-type1",
+      "tableID": "SFLFLD",
+      "fields": [
+        {
+          "id": "MDFDSC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDFVAL",
+          "fldTyp": "A",
+          "fldLen": "160"
+        },
+        {
+          "id": "MDFLDN",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDFLDT",
+          "fldTyp": "A",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDFLDL",
+          "fldTyp": "N",
+          "fldLen": "4"
+        },
+        {
+          "id": "MDFLDD",
+          "fldTyp": "N",
+          "fldLen": "2"
+        },
+        {
+          "id": "MDFREQ",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDDDLM",
+          "fldTyp": "N",
+          "fldLen": "2"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "fields": [
+        {
+          "id": "MDSTCN",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDSTHE",
+          "fldTyp": "N",
+          "fldLen": "9"
+        },
+        {
+          "id": "MDSTHA",
+          "fldTyp": "N",
+          "fldLen": "9"
+        },
+        {
+          "id": "MDSTCE",
+          "fldTyp": "N",
+          "fldLen": "11"
+        },
+        {
+          "id": "MDSTCA",
+          "fldTyp": "N",
+          "fldLen": "11"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "fields": [
+        {
+          "id": "ATTTITLE",
+          "fldTyp": "A",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "table-type1",
+      "tableID": "SFLATT",
+      "fields": [
+        {
+          "id": "MDATTN",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDATTD",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MDATTU",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "DELATT",
+          "fldTyp": "A",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "fields": [
+        {
+          "id": "CMTTITLE",
+          "fldTyp": "A",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "type": "table-type1",
+      "tableID": "SFLCMT",
+      "fields": [
+        {
+          "id": "MDCDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MDCTIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MDCUSR",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDCLIN",
+          "fldTyp": "A",
+          "fldLen": "240"
+        },
+        {
+          "id": "MDCMTN",
+          "fldTyp": "N",
+          "fldLen": "5"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "fields": [
+        {
+          "id": "LOGTITLE",
+          "fldTyp": "A",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "type": "table-type1",
+      "tableID": "SFLLOG",
+      "fields": [
+        {
+          "id": "LOGDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "LOGTIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "LOTSTS",
+          "fldTyp": "L",
+          "fldLen": "1"
+        },
+        {
+          "id": "LOGUSR",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "LOGUDS",
+          "fldTyp": "A",
+          "fldLen": "50"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "fields": [
+        {
+          "id": "NEWATT",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "ATTDIR",
+          "fldTyp": "A",
+          "fldLen": "60"
+        },
+        {
+          "id": "CRTDIR",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "fields": [
+        {
+          "id": "DSPATT",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "DSPCMT",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "DSPLOG",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "fields": [
+        {
+          "id": "GETTMP",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "GETTASK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "GETSTSK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "SETTASK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "SETSTSK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "buttons": [
+        "BACK",
+        "BROWSE",
+        "SAVE",
+        "ADDCMT",
+        "CLICK",
+        "FULLHIST",
+        "MAIL",
+        "MAILAGRP",
+        "MAILAUSR",
+        "MAILREQU",
+        "MAILTSTG",
+        "MAILTSTU",
+        "NEWTASK",
+        "REOPEN",
+        "SENDMAIL",
+        "SUBTASKS",
+        "ADDATT"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME",
+    "PRJDET",
+    "PRJTASK",
+    "PRJRFPA",
+    "PRJRFPH",
+    "PTIMLST",
+    "TSKOBJ"
+  ]
+}

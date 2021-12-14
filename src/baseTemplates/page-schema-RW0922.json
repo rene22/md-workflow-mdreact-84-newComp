@@ -1,0 +1,49 @@
+{
+  "name": "RW0922",
+  "navigation": "Group Details",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDGRP",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDGRPT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDGTDS",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDDFTT",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ],
+      "buttons": [
+        "BACK",
+        "BROWSE",
+        "SAVE",
+        "SAVENEXT",
+        "DELETE",
+        "USERS"
+      ],
+      "type": "action-type2",
+      "enable": "true"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

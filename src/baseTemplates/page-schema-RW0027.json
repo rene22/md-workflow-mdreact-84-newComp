@@ -1,0 +1,109 @@
+{
+  "name": "RW0027",
+  "navigation": "Change Status",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "MMDSC",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDTASK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDTDSC",
+          "fldTyp": "A",
+          "fldLen": "240"
+        },
+        {
+          "id": "MDSTSK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDSDSC",
+          "fldTyp": "A",
+          "fldLen": "240"
+        },
+        {
+          "id": "MDIREF",
+          "fldTyp": "A",
+          "fldLen": "20"
+        }
+      ],
+      "dropdowns": [
+        "MDTSKT",
+        "PTSTS"
+      ],
+      "type": "action-type1",
+      "enable": "true",
+      "cols": "2"
+    },
+    {
+      "id": "3",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "SELROW",
+          "type": "checkbox"
+        }
+      ],
+      "tableID": "SFLSTS",
+      "fields": [
+        {
+          "id": "SELROW",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "NEWSTS",
+          "fldTyp": "L",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "fields": [
+        {
+          "id": "MDLINE",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "GETDSC",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "GETTMP",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "5",
+      "buttons": [
+        "BACK",
+        "SAVE",
+        "SAVEMAIL"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

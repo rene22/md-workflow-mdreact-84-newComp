@@ -1,0 +1,165 @@
+{
+  "name": "RW0033",
+  "navigation": "Delivery Conflict List",
+  "frame": [
+    {
+      "id": "2",
+      "type": "switch-type1"
+    },
+    {
+      "id": "3",
+      "type": "search-type1",
+      "enable": "true",
+      "fields": [
+        {
+          "id": "FLIBT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "FOBJN",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "FRFP",
+          "fldTyp": "N",
+          "fldLen": "7"
+        }
+      ],
+      "dropdowns": [
+        "PRDDIF"
+      ],
+      "cols": "2",
+      "buttons": [
+        "SEARCH",
+        "CLEAR"
+      ]
+    },
+    {
+      "id": "4",
+      "type": "position-type1",
+      "fields": [
+        {
+          "id": "POBJN",
+          "fldTyp": "A",
+          "fldLen": "10"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "table-type1",
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "MDOBJN",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDOBJA",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDLIBN",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDDATT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MDTIMT",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MDSLBT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDDATP",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MDTIMP",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MDSLBP",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDAGP",
+          "fldTyp": "A",
+          "fldLen": "4"
+        },
+        {
+          "id": "MDLVL",
+          "fldTyp": "N",
+          "fldLen": "2"
+        },
+        {
+          "id": "MDRFP",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDREQN",
+          "fldTyp": "N",
+          "fldLen": "11"
+        },
+        {
+          "id": "RFPSTS",
+          "fldTyp": "A",
+          "fldLen": "1"
+        }
+      ],
+      "colType": [
+        {
+          "id": "MDOBJN",
+          "type": "link",
+          "button": "CLICK"
+        },
+        {
+          "id": "POBJN",
+          "type": "position"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "fields": [
+        {
+          "id": "XLSPTH",
+          "fldTyp": "A",
+          "fldLen": "120"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "7",
+      "buttons": [
+        "BACK",
+        "BROWSE",
+        "POSITION",
+        "REFRESH",
+        "REPORT"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME",
+    "LIVSET"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "name": "RW0913",
+  "navigation": "Custom Fields for Task Type",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDTSKT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDTDSC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "3",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "ROWSEL",
+          "type": "checkbox"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "ROWSEL",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDFLDN",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDFLDV",
+          "fldTyp": "A",
+          "fldLen": "160"
+        },
+        {
+          "id": "ORGSEL",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDFLDL",
+          "fldTyp": "N",
+          "fldLen": "3"
+        },
+        {
+          "id": "MDFLDT",
+          "fldTyp": "A",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDFLDD",
+          "fldTyp": "N",
+          "fldLen": "2"
+        },
+        {
+          "id": "ORGVAL",
+          "fldTyp": "A",
+          "fldLen": "160"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "buttons": [
+        "BACK",
+        "BROWSE",
+        "EXCALL",
+        "INCALL",
+        "SAVE"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

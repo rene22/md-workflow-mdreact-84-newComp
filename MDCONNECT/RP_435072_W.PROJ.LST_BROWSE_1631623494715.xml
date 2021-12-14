@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operation>
+    <container type="GLOBAL">
+        <field id="ACTION" value="01"/>
+        <field id="FUNCTION" value="W.USER.LST"/>
+        <field id="LANGID" value="E"/>
+        <field id="REQUESTCODE" value=""/>
+        <field id="SCREEN" value="RW0905"/>
+        <field id="THREAD" value="1"/>
+    </container>
+    <container type="REQUESTCODELIST">
+        <array type="button">
+            <item id="BACK" value="Back"/>
+            <item id="REFRESH" value="Refresh"/>
+            <item id="SEARCH" value="Search"/>
+            <item id="BROWSE" value=""/>
+            <item id="POSITION" value=""/>
+            <item id="SELECT" value=""/>
+        </array>
+        <array type="link" value="Links">
+            <item id="HOME" value="Project Listing"/>
+        </array>
+    </container>
+    <container type="SCREEN">
+        <caption value="Users"/>
+        <field id="FGRP" value="" label="Workflow Group" browse="true" editable="true"/>
+        <field id="FMAIL" value="" label="Email Address" editable="true"/>
+        <field id="FDESC" value="" label="Description" editable="true"/>
+        <field id="FSGRP" value="" label="MDSEC Group" editable="true"/>
+        <field id="PUSER" value="" editable="true"/>
+        <field id="PEXTU" value="" editable="true"/>
+        <grid id="SFL01" pagenr="1" maxpages="1">
+            <header>
+                <item id="SFLOPT" value="" linklist="1=Select" linklistvalue="Options" />
+                <item id="MDUSER" value="User" />
+                <item id="MDDESC" value="Description" />
+                <item id="MDMAIL" value="Email Address" />
+                <item id="UPEXTU" value="External User ID" />
+                <item id="MDSGRP" value="MDSEC Group" />
+            </header>
+            <rows>
+                <row nr="1">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDUSER" value="DENISEW" editable="false" />
+                    <item id="MDDESC" value="Denise Walstead" editable="false" />
+                    <item id="MDMAIL" value="denisew&#x0040;md-na.com" editable="false" />
+                    <item id="UPEXTU" value="" editable="false" />
+                    <item id="MDSGRP" value="MD_ADMCMS" editable="false" />
+                </row>
+                <row nr="2">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDUSER" value="DKWSEC" editable="false" />
+                    <item id="MDDESC" value="Donna Westmoreland" editable="false" />
+                    <item id="MDMAIL" value="donnaw&#x0040;md-na.com" editable="false" />
+                    <item id="UPEXTU" value="" editable="false" />
+                    <item id="MDSGRP" value="MD_ADMCMS" editable="false" />
+                </row>
+                <row nr="3">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDUSER" value="DKWSUPER" editable="false" />
+                    <item id="MDDESC" value="Donna Westmoreland" editable="false" />
+                    <item id="MDMAIL" value="" editable="false" />
+                    <item id="UPEXTU" value="" editable="false" />
+                    <item id="MDSGRP" value="MD_ADMCMS" editable="false" />
+                </row>
+                <row nr="4">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDUSER" value="DONNATMP" editable="false" />
+                    <item id="MDDESC" value="Donna Temp for example" editable="false" />
+                    <item id="MDMAIL" value="donna.westmoreland&#x0040;consistentchange.com" editable="false" />
+                    <item id="UPEXTU" value="donnatmp" editable="false" />
+                    <item id="MDSGRP" value="MD_USER" editable="false" />
+                </row>
+                <row nr="5">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDUSER" value="DONNAW" editable="false" />
+                    <item id="MDDESC" value="Donna Westmoreland" editable="false" />
+                    <item id="MDMAIL" value="donnaw&#x0040;md-na.com" editable="false" />
+                    <item id="UPEXTU" value="" editable="false" />
+                    <item id="MDSGRP" value="MD_ADMCMS" editable="false" />
+                </row>
+                <row nr="6">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDUSER" value="DONNAWSO" editable="false" />
+                    <item id="MDDESC" value="Donna Westmoreland" editable="false" />
+                    <item id="MDMAIL" value="donnaw&#x0040;md-na.com" editable="false" />
+                    <item id="UPEXTU" value="" editable="false" />
+                    <item id="MDSGRP" value="MD_ADMCMS" editable="false" />
+                </row>
+                <row nr="7">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDUSER" value="ERLA" editable="false" />
+                    <item id="MDDESC" value="Erik Larson" editable="false" />
+                    <item id="MDMAIL" value="erik.larsson&#x0040;midrangedynamics.com" editable="false" />
+                    <item id="UPEXTU" value="" editable="false" />
+                    <item id="MDSGRP" value="MD_ADMCMS" editable="false" />
+                </row>
+                <row nr="8">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDUSER" value="MMORGAN" editable="false" />
+                    <item id="MDDESC" value="Michael Morgan" editable="false" />
+                    <item id="MDMAIL" value="michael.morgan&#x0040;midrangedynamics.com" editable="false" />
+                    <item id="UPEXTU" value="" editable="false" />
+                    <item id="MDSGRP" value="MD_ADMCMS" editable="false" />
+                </row>
+                <row nr="9">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDUSER" value="QSO" editable="false" />
+                    <item id="MDDESC" value="MD Security Officer" editable="false" />
+                    <item id="MDMAIL" value="" editable="false" />
+                    <item id="UPEXTU" value="" editable="false" />
+                    <item id="MDSGRP" value="MD_ADMCMS" editable="false" />
+                </row>
+                <row nr="10">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDUSER" value="RASHIA" editable="false" />
+                    <item id="MDDESC" value="Rashi Argawal" editable="false" />
+                    <item id="MDMAIL" value="" editable="false" />
+                    <item id="UPEXTU" value="" editable="false" />
+                    <item id="MDSGRP" value="MD_ADMWF" editable="false" />
+                </row>
+                <row nr="11">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDUSER" value="REN" editable="false" />
+                    <item id="MDDESC" value="Ren&#x00E9; Untern&#x00E4;hrer" editable="false" />
+                    <item id="MDMAIL" value="" editable="false" />
+                    <item id="UPEXTU" value="rene" editable="false" />
+                    <item id="MDSGRP" value="MD_ADMCMS" editable="false" />
+                </row>
+                <row nr="12">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDUSER" value="SILVANAD" editable="false" />
+                    <item id="MDDESC" value="Silvana Della Camera MD-NA" editable="false" />
+                    <item id="MDMAIL" value="silvanad&#x0040;md-na.com" editable="false" />
+                    <item id="UPEXTU" value="" editable="false" />
+                    <item id="MDSGRP" value="MD_PGMR" editable="false" />
+                </row>
+                <row nr="13">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDUSER" value="STUART" editable="false" />
+                    <item id="MDDESC" value="Stuart" editable="false" />
+                    <item id="MDMAIL" value="stuartm&#x0040;midrangedynamic.com" editable="false" />
+                    <item id="UPEXTU" value="" editable="false" />
+                    <item id="MDSGRP" value="MD_ADMCMS" editable="false" />
+                </row>
+            </rows>
+        </grid>
+    </container>
+</operation> 

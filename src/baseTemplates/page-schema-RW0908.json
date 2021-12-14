@@ -1,0 +1,45 @@
+{
+  "name": "RW0908",
+  "navigation": "Reports",
+  "frame": [
+    {
+      "id": "2",
+      "type": "table-type1",
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "RPTNAM",
+          "fldTyp": "L",
+          "fldLen": "10"
+        },
+        {
+          "id": "USRSLT",
+          "fldTyp": "A",
+          "fldLen": "6"
+        },
+        {
+          "id": "PUBSLT",
+          "fldTyp": "A",
+          "fldLen": "6"
+        }
+      ],
+      "colType": [
+        {
+          "id": "RPTNAM",
+          "type": "link",
+          "button": "CLICK"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "buttons": [
+        "BACK"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

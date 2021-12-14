@@ -1,0 +1,44 @@
+{
+  "name": "RW0918",
+  "navigation": "Drop Down List Settings",
+  "frame": [
+    {
+      "id": "2",
+      "type": "table-type1",
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "MDDDLN",
+          "fldTyp": "L",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDDDLV",
+          "fldTyp": "L",
+          "fldLen": "1"
+        },
+        {
+          "id": "ORIGV",
+          "fldTyp": "A",
+          "fldLen": "1"
+        },
+        {
+          "id": "DDLLIST",
+          "fldTyp": "A",
+          "fldLen": "120"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "buttons": [
+        "BACK",
+        "SAVE"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

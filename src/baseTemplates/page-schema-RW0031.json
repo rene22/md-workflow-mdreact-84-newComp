@@ -1,0 +1,181 @@
+{
+  "name": "RW0031",
+  "navigation": "Object Details",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDOBJN",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDDSC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDTLIB",
+          "fldTyp": "A",
+          "fldLen": "240"
+        },
+        {
+          "id": "MDTSLB",
+          "fldTyp": "A",
+          "fldLen": "240"
+        },
+        {
+          "id": "MDTSFL",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDSRCN",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDOBJT",
+          "fldTyp": "A",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDOBJA",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDDATA",
+          "fldTyp": "A",
+          "fldLen": "60"
+        }
+      ],
+      "dropdowns": [
+        "MDRSN",
+        "MDAGP",
+        "RLRLOC",
+        "MDLVL",
+        "MDFLVL"
+      ],
+      "type": "action-type1",
+      "enable": "true",
+      "cols": "2"
+    },
+    {
+      "id": "3",
+      "fields": [
+        {
+          "id": "MDRFP",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MHDSC",
+          "fldTyp": "A",
+          "fldLen": "160"
+        },
+        {
+          "id": "MDDATC",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MDDATI",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MDTIMI",
+          "fldTyp": "T",
+          "fldLen": "6"
+        }
+      ],
+      "dropdowns": [
+        "MDINTS"
+      ],
+      "type": "action-type1",
+      "enable": "true",
+      "cols": "2"
+    },
+    {
+      "id": "4",
+      "fields": [
+        {
+          "id": "MDUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDUSDS",
+          "fldTyp": "A",
+          "fldLen": "50"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "5",
+      "type": "position-type1",
+      "fields": [
+        {
+          "id": "PPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "table-type1",
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "MDPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "MDTASK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDSTSK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MMDSC",
+          "fldTyp": "A",
+          "fldLen": "80"
+        }
+      ],
+      "colType": [
+        {
+          "id": "MDPROJ",
+          "type": "link",
+          "button": "CLICK"
+        },
+        {
+          "id": "PPROJ",
+          "type": "position"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "buttons": [
+        "BACK",
+        "OBJLOC",
+        "POSITION",
+        "REFRESH"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME",
+    "OBJGRP"
+  ]
+}

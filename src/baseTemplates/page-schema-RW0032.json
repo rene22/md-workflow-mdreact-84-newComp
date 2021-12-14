@@ -1,0 +1,116 @@
+{
+  "name": "RW0032",
+  "navigation": "Object Locations",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDOBJN",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDOBJT",
+          "fldTyp": "A",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "3",
+      "type": "table-type1",
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "RLRLOC",
+          "fldTyp": "L",
+          "fldLen": "10"
+        },
+        {
+          "id": "LIBNAM",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "OBJATR",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "CRTDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "CRTTIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "SRCDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "SRCTIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "SRCLIB",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDDATI",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MDTIMI",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MDREQN",
+          "fldTyp": "N",
+          "fldLen": "11"
+        }
+      ],
+      "colType": [
+        {
+          "id": "RLRLOC",
+          "type": "link",
+          "button": "CLICK"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "dropdowns": [
+        "PRLOC"
+      ],
+      "type": "action-type1",
+      "enable": "true"
+    },
+    {
+      "id": "5",
+      "buttons": [
+        "BACK",
+        "POSITION",
+        "REFRESH"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

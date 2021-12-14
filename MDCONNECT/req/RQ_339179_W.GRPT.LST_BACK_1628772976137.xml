@@ -1,0 +1,14 @@
+<operation>
+   <container type="GLOBAL">
+      <field id="ACTION" value="01"/>
+      <field id="FUNCTION" value="W.GRPT.LST"/>
+      <field id="LANGID" value="E"/>
+      <field id="REQUESTCODE" value="BACK"/>
+      <field id="SCREEN" value="RW0901"/>
+      <field id="THREAD" value="1"/>
+   </container>
+   <container type="SCREEN">
+      <field id="PGRPT" value="" editable="true" browse="false"/>
+      <caption value="Group Types"/>
+   </container>
+</operation>

@@ -1,0 +1,134 @@
+{
+  "name": "RW0920",
+  "navigation": "Project/Task Status Triggers per Level",
+  "frame": [
+    {
+      "id": "2",
+      "type": "switch-type1"
+    },
+    {
+      "id": "3",
+      "type": "search-type1",
+      "enable": "true",
+      "dropdowns": [
+        "FAGP",
+        "FRLOC",
+        "FLVL",
+        "FRFPA",
+        "FNSTS",
+        "FFSTS"
+      ],
+      "cols": "2",
+      "buttons": [
+        "SEARCH",
+        "CLEAR"
+      ]
+    },
+    {
+      "id": "4",
+      "type": "position-type1",
+      "fields": [
+        {
+          "id": "PAGP",
+          "fldTyp": "A",
+          "fldLen": "4"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "SFLOPT",
+          "type": "radio"
+        },
+        {
+          "id": "SFLOPT",
+          "type": "link",
+          "button": "SELECT"
+        },
+        {
+          "id": "PAGP",
+          "type": "position"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "SFLOPT",
+          "fldTyp": "O",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDAGP",
+          "fldTyp": "A",
+          "fldLen": "4"
+        },
+        {
+          "id": "RLRLOC",
+          "fldTyp": "L",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDLVL",
+          "fldTyp": "L",
+          "fldLen": "2"
+        },
+        {
+          "id": "MDRFPA",
+          "fldTyp": "L",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDNSTS",
+          "fldTyp": "L",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDFSTS",
+          "fldTyp": "L",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDIPRJ",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDITSK",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDISTK",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDMRG",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDIMED",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "buttons": [
+        "ADD",
+        "BACK",
+        "POSITION",
+        "REFRESH"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

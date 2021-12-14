@@ -1,0 +1,143 @@
+{
+  "name": "RW0026",
+  "navigation": "Project Activity History",
+  "frame": [
+    {
+      "id": "2",
+      "type": "switch-type1"
+    },
+    {
+      "id": "3",
+      "fields": [
+        {
+          "id": "MDPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "MMDSC",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDTASK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDTDSC",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDSTSK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDSDSC",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "FUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "FTGTV",
+          "fldTyp": "A",
+          "fldLen": "20"
+        }
+      ],
+      "type": "search-type1",
+      "enable": "true",
+      "dropdowns": [
+        "FACOD",
+        "FMFLD"
+      ],
+      "cols": "2",
+      "buttons": [
+        "SEARCH",
+        "CLEAR"
+      ]
+    },
+    {
+      "id": "4",
+      "type": "position-type1",
+      "fields": [
+        {
+          "id": "PDATE",
+          "fldTyp": "D",
+          "fldLen": "8"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "table-type1",
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "MDDATE",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MDTIME",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MDUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDUSRD",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDACOD",
+          "fldTyp": "L",
+          "fldLen": "3"
+        },
+        {
+          "id": "MDMFLD",
+          "fldTyp": "L",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDTGTV",
+          "fldTyp": "A",
+          "fldLen": "20"
+        }
+      ],
+      "colType": [
+        {
+          "id": "PDATE",
+          "type": "position"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "buttons": [
+        "BACK",
+        "BROWSE",
+        "POSITION",
+        "REFRESH"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME",
+    "PRJDET",
+    "PRJOBJ",
+    "PRJRFPA",
+    "PRJRFPH",
+    "TSKOBJ"
+  ]
+}

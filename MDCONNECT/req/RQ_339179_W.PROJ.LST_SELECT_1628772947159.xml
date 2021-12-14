@@ -1,0 +1,133 @@
+<operation>
+   <container type="GLOBAL">
+      <field id="ACTION" value="LIST"/>
+      <field id="FUNCTION" value="W.PROJ.LST"/>
+      <field id="LANGID" value="E"/>
+      <field id="REQUESTCODE" value="SELECT"/>
+      <field id="SCREEN" value="RW0001"/>
+      <field id="THREAD" value="1"/>
+   </container>
+   <container type="SCREEN">
+      <field id="ATTACHVIS" value="true" editable="false" visible="false"/>
+      <field id="URLVIS" value="false" editable="false" visible="false"/>
+      <field id="FUSER" value="" label="Requester" editable="true" browse="true"/>
+      <field id="FAGP" value=" " label="Application" editable="true"/>
+      <field id="FRLOC" value=" " label="Location" editable="true"/>
+      <field id="FRFP" value="0" label="RFP" editable="true" browse="true"/>
+      <field id="FIGRP" value="" label="Involved Group" editable="true" browse="true"/>
+      <field id="FINUS" value="" label="Involved User" editable="true" browse="true"/>
+      <field id="FPROJ" value="" label="Project" editable="true"/>
+      <field id="FDSC" value="" label="Desc/Comments" editable="true"/>
+      <field id="FSTS" value=" " label="Status" editable="true"/>
+      <field id="FPRI" value=" " label="Priority" editable="true"/>
+      <field id="FEDTF" value="" label="Min Comp Date" editable="true"/>
+      <field id="FEDTT" value="" label="Max Comp Date" editable="true"/>
+      <field id="FPRJT" value=" " label="Project Type" editable="true"/>
+      <field id="FATT" value="false" label="Attachments" editable="true"/>
+      <field id="FCVAL" value="" label="Custom Value" editable="true"/>
+      <field id="FCFLDP" value=" " label="Custom Field" editable="true"/>
+      <field id="PPROJ" value="" editable="true"/>
+      <grid id="SFL01">
+         <rows>
+            <row nr="1">
+               <item id="SFLOPT" value="2"/>
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+               <item id="ATTACH" value="" editable="false" visible="false"/>
+            </row>
+            <row nr="2">
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+            </row>
+            <row nr="3">
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+               <item id="ATTACH" value="" editable="false" visible="false"/>
+            </row>
+            <row nr="4">
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+               <item id="ATTACH" value="" editable="false" visible="false"/>
+            </row>
+            <row nr="5">
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+            </row>
+            <row nr="6">
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+               <item id="ATTACH" value="" editable="false" visible="false"/>
+            </row>
+            <row nr="7">
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+               <item id="ATTACH" value="" editable="false" visible="false"/>
+            </row>
+            <row nr="8">
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+               <item id="ATTACH" value="" editable="false" visible="false"/>
+            </row>
+            <row nr="9">
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+               <item id="ATTACH" value="" editable="false" visible="false"/>
+            </row>
+            <row nr="10">
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+               <item id="ATTACH" value="" editable="false" visible="false"/>
+            </row>
+            <row nr="11">
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+               <item id="ATTACH" value="" editable="false" visible="false"/>
+            </row>
+            <row nr="12">
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+            </row>
+            <row nr="13">
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+               <item id="ATTACH" value="" editable="false" visible="false"/>
+            </row>
+            <row nr="14">
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+               <item id="ATTACH" value="" editable="false" visible="false"/>
+            </row>
+            <row nr="15">
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+               <item id="ATTACH" value="" editable="false" visible="false"/>
+            </row>
+            <row nr="16">
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+            </row>
+            <row nr="17">
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+               <item id="ATTACH" value="" editable="false" visible="false"/>
+            </row>
+            <row nr="18">
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+               <item id="ATTACH" value="" editable="false" visible="false"/>
+            </row>
+            <row nr="19">
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+               <item id="ATTACH" value="" editable="false" visible="false"/>
+            </row>
+            <row nr="20">
+               <item id="URL" value="" editable="false" visible="false"/>
+               <item id="URLLNK" value="" editable="false" visible="false"/>
+               <item id="ATTACH" value="" editable="false" visible="false"/>
+            </row>
+         </rows>
+      </grid>
+      <caption value="Projects"/>
+   </container>
+</operation>

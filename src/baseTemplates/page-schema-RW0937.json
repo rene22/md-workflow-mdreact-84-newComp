@@ -1,0 +1,130 @@
+{
+  "name": "RW0937",
+  "navigation": "Project Costs",
+  "frame": [
+    {
+      "id": "2",
+      "type": "switch-type1"
+    },
+    {
+      "id": "3",
+      "type": "search-type1",
+      "enable": "true",
+      "fields": [
+        {
+          "id": "FPRJT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "FTSKT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "FPHAS",
+          "fldTyp": "A",
+          "fldLen": "5"
+        },
+        {
+          "id": "FUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "FCOST",
+          "fldTyp": "N",
+          "fldLen": "7"
+        }
+      ],
+      "cols": "2",
+      "buttons": [
+        "SEARCH",
+        "CLEAR"
+      ]
+    },
+    {
+      "id": "4",
+      "type": "position-type1",
+      "fields": [
+        {
+          "id": "PSORT",
+          "fldTyp": "N",
+          "fldLen": "3"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "SFLOPT",
+          "type": "radio"
+        },
+        {
+          "id": "SFLOPT",
+          "type": "link",
+          "button": "SELECT"
+        },
+        {
+          "id": "PSORT",
+          "type": "position"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "SFLOPT",
+          "fldTyp": "O",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDSORT",
+          "fldTyp": "N",
+          "fldLen": "3"
+        },
+        {
+          "id": "MDPRJT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDTSKT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDPHAS",
+          "fldTyp": "A",
+          "fldLen": "5"
+        },
+        {
+          "id": "MDUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDCOST",
+          "fldTyp": "N",
+          "fldLen": "7"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "buttons": [
+        "ADD",
+        "BACK",
+        "BROWSE",
+        "POSITION",
+        "RECALC",
+        "REFRESH"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

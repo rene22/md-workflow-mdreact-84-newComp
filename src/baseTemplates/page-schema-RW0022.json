@@ -1,0 +1,120 @@
+{
+  "name": "RW0022",
+  "navigation": "Comment",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "MMDSC",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDTASK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDTDSC",
+          "fldTyp": "A",
+          "fldLen": "240"
+        },
+        {
+          "id": "MDSDSC",
+          "fldTyp": "A",
+          "fldLen": "240"
+        },
+        {
+          "id": "MDSTSK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDIREF",
+          "fldTyp": "A",
+          "fldLen": "20"
+        }
+      ],
+      "dropdowns": [
+        "MDTSKT",
+        "PTSTS"
+      ],
+      "type": "action-type1",
+      "enable": "true",
+      "cols": "2"
+    },
+    {
+      "id": "3",
+      "fields": [
+        {
+          "id": "MDCDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MDCTIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MDUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDUSRD",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDLINE",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDCMTN",
+          "fldTyp": "N",
+          "fldLen": "5"
+        },
+        {
+          "id": "GETDSC",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "GETTMP",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "4",
+      "buttons": [
+        "BACK",
+        "SAVE",
+        "ADDCMT",
+        "DELETE",
+        "EDIT",
+        "NEXTCMT",
+        "PREVCMT"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME",
+    "PRJDET",
+    "PRJRFPA",
+    "PRJRFPH",
+    "PRJTASK",
+    "TSKOBJ"
+  ]
+}

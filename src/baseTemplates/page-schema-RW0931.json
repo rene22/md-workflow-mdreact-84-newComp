@@ -1,0 +1,78 @@
+{
+  "name": "RW0931",
+  "navigation": "Project/Task Status Details",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDSTS",
+          "fldTyp": "A",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDSORT",
+          "fldTyp": "N",
+          "fldLen": "3"
+        },
+        {
+          "id": "MDENDS",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDUSEP",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDUSET",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDALWA",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDALWM",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDGRPT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDGTDS",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "ALLTRN",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ],
+      "buttons": [
+        "BACK",
+        "BROWSE",
+        "SAVE",
+        "SAVENEXT",
+        "DELETE"
+      ],
+      "type": "action-type2",
+      "enable": "true"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

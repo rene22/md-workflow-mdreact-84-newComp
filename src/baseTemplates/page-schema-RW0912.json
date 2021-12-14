@@ -1,0 +1,96 @@
+{
+  "name": "RW0912",
+  "navigation": "Project/Task Custom Fields",
+  "frame": [
+    {
+      "id": "2",
+      "type": "position-type1",
+      "fields": [
+        {
+          "id": "PSORT",
+          "fldTyp": "N",
+          "fldLen": "3"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "SFLOPT",
+          "type": "radio"
+        },
+        {
+          "id": "SFLOPT",
+          "type": "link",
+          "button": "SELECT"
+        },
+        {
+          "id": "MDSORT",
+          "type": "link",
+          "button": "SELECT",
+          "action": {
+            "id": "SFLOPT",
+            "value": "2"
+          }
+        },
+        {
+          "id": "PSORT",
+          "type": "position"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "SFLOPT",
+          "fldTyp": "O",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDSORT",
+          "fldTyp": "N",
+          "fldLen": "3"
+        },
+        {
+          "id": "MDFLDN",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDFLDT",
+          "fldTyp": "L",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDFLDL",
+          "fldTyp": "N",
+          "fldLen": "4"
+        },
+        {
+          "id": "MDFLDD",
+          "fldTyp": "N",
+          "fldLen": "2"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "buttons": [
+        "ADD",
+        "BACK",
+        "POSITION",
+        "REFRESH"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "name": "RW0911",
+  "navigation": "Project/Task Status Codes",
+  "frame": [
+    {
+      "id": "2",
+      "type": "position-type1",
+      "fields": [
+        {
+          "id": "PSORT",
+          "fldTyp": "N",
+          "fldLen": "3"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "SFLOPT",
+          "type": "radio"
+        },
+        {
+          "id": "SFLOPT",
+          "type": "link",
+          "button": "SELECT"
+        },
+        {
+          "id": "PSORT",
+          "type": "position"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "SFLOPT",
+          "fldTyp": "O",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDSORT",
+          "fldTyp": "N",
+          "fldLen": "3"
+        },
+        {
+          "id": "MDSTS",
+          "fldTyp": "A",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDENDS",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDUSEP",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDUSET",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDALWA",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDALWM",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDGRPT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "buttons": [
+        "ADD",
+        "BACK",
+        "POSITION",
+        "REFRESH"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "RW0909",
+  "navigation": "Report Fields",
+  "frame": [
+    {
+      "id": "2",
+      "dropdowns": [
+        "RPTNAM"
+      ],
+      "type": "action-type1",
+      "enable": "true",
+      "cols": "1"
+    },
+    {
+      "id": "3",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "ROWSEL",
+          "type": "checkbox"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "ROWSEL",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "FLDDSC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "FLDNAM",
+          "fldTyp": "A",
+          "fldLen": "11"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "buttons": [
+        "BACK",
+        "SAVE",
+        "SELALL",
+        "UNSELALL",
+        "REVERTPUB"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

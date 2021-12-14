@@ -1,0 +1,131 @@
+{
+  "name": "RW0100",
+  "navigation": "RFP Installation/Test Calendar",
+  "frame": [
+    {
+      "id": "2",
+      "type": "switch-type1"
+    },
+    {
+      "id": "3",
+      "type": "search-type1",
+      "enable": "true",
+      "fields": [
+        {
+          "id": "FMONTH",
+          "fldTyp": "N",
+          "fldLen": "6"
+        },
+        {
+          "id": "FOBJN",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "FPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "FTASK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "FSTSK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "FRFP",
+          "fldTyp": "N",
+          "fldLen": "7"
+        }
+      ],
+      "dropdowns": ["FRSTS", "FRLOC", "FAGP", "FLVL", "FRFPT"],
+      "cols": "2",
+      "buttons": ["SEARCH", "CLEAR"]
+    },
+    {
+      "id": "4",
+      "type": "calendar-type3",
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "MDAGP",
+          "fldTyp": "A",
+          "fldLen": "4"
+        },
+        {
+          "id": "RLRLOC",
+          "fldTyp": "L",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDLVL",
+          "fldTyp": "N",
+          "fldLen": "2"
+        },
+        {
+          "id": "MDRFP",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MHSDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MHSTIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MHRDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MHRTIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MHINTS",
+          "fldTyp": "L",
+          "fldLen": "2"
+        }
+      ],
+      "colType": [
+        {
+          "id": "MDAGP",
+          "type": "link",
+          "button": "CLICK"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "fields": [
+        {
+          "id": "IFDATE",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "ITDATE",
+          "fldTyp": "D",
+          "fldLen": "8"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "6",
+      "buttons": ["BACK", "BROWSE", "CALRLST", "REFRESH"],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": ["HOME", "TASKLST"]
+}

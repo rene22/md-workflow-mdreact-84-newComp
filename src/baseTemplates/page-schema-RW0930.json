@@ -1,0 +1,78 @@
+{
+  "name": "RW0930",
+  "navigation": "Email Settings",
+  "frame": [
+    {
+      "id": "2",
+      "dropdowns": [
+        "RLRLOC",
+        "MDSSL",
+        "MDOURL"
+      ],
+      "type": "action-type2",
+      "enable": "true",
+      "cols": "1",
+      "fields": [
+        {
+          "id": "MDSMHN",
+          "fldTyp": "A",
+          "fldLen": "60"
+        },
+        {
+          "id": "MDPORT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDSMUS",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDSMPW",
+          "fldTyp": "A",
+          "fldLen": "40"
+        },
+        {
+          "id": "MDSMPW2",
+          "fldTyp": "A",
+          "fldLen": "40"
+        },
+        {
+          "id": "MDMAIL",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDSMAT",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDDBG",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDZIPL",
+          "fldTyp": "A",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDWURL",
+          "fldTyp": "A",
+          "fldLen": "100"
+        }
+      ],
+      "buttons": [
+        "BACK",
+        "SAVE",
+        "SAVENEXT",
+        "DELETE"
+      ]
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

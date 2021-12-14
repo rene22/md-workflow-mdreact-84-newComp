@@ -1,0 +1,127 @@
+{
+  "name": "RW0902",
+  "navigation": "Groups",
+  "frame": [
+    {
+      "id": "2",
+      "type": "switch-type1"
+    },
+    {
+      "id": "3",
+      "type": "search-type1",
+      "enable": "true",
+      "fields": [
+        {
+          "id": "FGRPT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "FUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        }
+      ],
+      "cols": "2",
+      "buttons": [
+        "SEARCH",
+        "CLEAR"
+      ]
+    },
+    {
+      "id": "4",
+      "type": "position-type1",
+      "fields": [
+        {
+          "id": "PGRP",
+          "fldTyp": "A",
+          "fldLen": "10"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "SFLOPT",
+          "type": "radio"
+        },
+        {
+          "id": "SFLOPT",
+          "type": "link",
+          "button": "SELECT"
+        },
+        {
+          "id": "MDGRP",
+          "type": "link",
+          "button": "SELECT",
+          "action": {
+            "id": "SFLOPT",
+            "value": "1"
+          }
+        },
+        {
+          "id": "USRCNT",
+          "type": "link",
+          "button": "SELECT",
+          "action": {
+            "id": "SFLOPT",
+            "value": "U"
+          }
+        },
+        {
+          "id": "PGRP",
+          "type": "position"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "SFLOPT",
+          "fldTyp": "O",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDGRP",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDGRPT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDDFTT",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "USRCNT",
+          "fldTyp": "N",
+          "fldLen": "5"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "buttons": [
+        "ADD",
+        "BACK",
+        "BROWSE",
+        "POSITION",
+        "REFRESH"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "RW0942",
+  "navigation": "Project/Task Status Trigger for Level",
+  "frame": [
+    {
+      "id": "2",
+      "dropdowns": [
+        "MDAGP",
+        "RLRLOC",
+        "MDLVL",
+        "MDRFPA",
+        "MDNSTS",
+        "MDFSTS"
+      ],
+      "type": "action-type2",
+      "enable": "true",
+      "fields": [
+        {
+          "id": "MDIPRJ",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDITSK",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDISTK",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDMRG",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDIMED",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ],
+      "buttons": [
+        "BACK",
+        "SAVE",
+        "SAVENEXT",
+        "DELETE"
+      ]
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

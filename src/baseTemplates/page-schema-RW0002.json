@@ -1,0 +1,467 @@
+{
+  "name": "RW0002",
+  "navigation": "Project Details",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "MMDSC",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MMUSER",
+          "fldTyp": "A",
+          "fldLen": "10",
+          "endAdornment": {
+            "type": "mail"
+          }
+        },
+        {
+          "id": "USUDSC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MMODAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MMOTIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MMEDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MMHRSE",
+          "fldTyp": "N",
+          "fldLen": "9"
+        },
+        {
+          "id": "MMHRSA",
+          "fldTyp": "N",
+          "fldLen": "9"
+        },
+        {
+          "id": "MMCSTE",
+          "fldTyp": "N",
+          "fldLen": "11"
+        },
+        {
+          "id": "MMCSTA",
+          "fldTyp": "N",
+          "fldLen": "11"
+        },
+        {
+          "id": "CPYTSK",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDLINE",
+          "fldTyp": "B",
+          "fldLen": "1",
+          "renderTyp": "rich-text-editor"
+        }
+      ],
+      "dropdowns": [
+        "MMPRJT",
+        "MMPRI",
+        "MMSTS",
+        "MDAGP"
+      ],
+      "type": "action-type1",
+      "enable": "true",
+      "cols": "3"
+    },
+    {
+      "id": "3",
+      "type": "table-type1",
+      "tableID": "SFLFLD",
+      "fields": [
+        {
+          "id": "MDFDSC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDFVAL",
+          "fldTyp": "A",
+          "fldLen": "160"
+        },
+        {
+          "id": "MDFLDN",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDFLDT",
+          "fldTyp": "A",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDFLDL",
+          "fldTyp": "N",
+          "fldLen": "4"
+        },
+        {
+          "id": "MDFLDD",
+          "fldTyp": "N",
+          "fldLen": "2"
+        },
+        {
+          "id": "MDFREQ",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDDDLM",
+          "fldTyp": "N",
+          "fldLen": "2"
+        }
+      ],
+      "colType": [
+        {
+          "id": "LOGDAT",
+          "type": "link",
+          "button": "CLICK"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "fields": [
+        {
+          "id": "MMTCNT",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MMTHRE",
+          "fldTyp": "N",
+          "fldLen": "9"
+        },
+        {
+          "id": "MMTHRA",
+          "fldTyp": "N",
+          "fldLen": "9"
+        },
+        {
+          "id": "MMTCSE",
+          "fldTyp": "N",
+          "fldLen": "11"
+        },
+        {
+          "id": "MMTCSA",
+          "fldTyp": "N",
+          "fldLen": "11"
+        },
+        {
+          "id": "MMSTCN",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MMSTHE",
+          "fldTyp": "N",
+          "fldLen": "9"
+        },
+        {
+          "id": "MMSTHA",
+          "fldTyp": "N",
+          "fldLen": "9"
+        },
+        {
+          "id": "MMSTCE",
+          "fldTyp": "N",
+          "fldLen": "11"
+        },
+        {
+          "id": "MMSTCA",
+          "fldTyp": "N",
+          "fldLen": "11"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "buttons": [
+        "BACK",
+        "SAVE",
+        "PRJTASK",
+        "SENDMAIL"
+      ],
+      "type": "button-group-type1"
+    },
+    {
+      "id": "5",
+      "fields": [
+        {
+          "id": "GRPTITLE",
+          "fldTyp": "A",
+          "fldLen": "1"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "6",
+      "type": "table-type1",
+      "tableID": "SFLGRP",
+      "fields": [
+        {
+          "id": "MDROLE",
+          "fldTyp": "L",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDGRPT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "GTREQ",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDGRP",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "ACTION1",
+          "fldTyp": "L",
+          "fldLen": "1"
+        },
+        {
+          "id": "ACTION2",
+          "fldTyp": "L",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "buttons": [
+        "ADDUSRS",
+        "DEFAULT"
+      ],
+      "type": "button-group-type1"
+    },
+    {
+      "id": "7",
+      "fields": [
+        {
+          "id": "ATTTITLE",
+          "fldTyp": "A",
+          "fldLen": "1"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "8",
+      "type": "table-type1",
+      "tableID": "SFLATT",
+      "fields": [
+        {
+          "id": "MDATTN",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDATTD",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MDATTU",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "DELATT",
+          "fldTyp": "A",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "buttons": [
+        "ADDATT"
+      ],
+      "type": "button-group-type1"
+    },
+    {
+      "id": "9",
+      "fields": [
+        {
+          "id": "CMTTITLE",
+          "fldTyp": "A",
+          "fldLen": "1"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "10",
+      "type": "table-type1",
+      "tableID": "SFLCMT",
+      "fields": [
+        {
+          "id": "MDCDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MDCTIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MDCUSR",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDCLIN",
+          "fldTyp": "A",
+          "fldLen": "240"
+        },
+        {
+          "id": "MDCMTN",
+          "fldTyp": "N",
+          "fldLen": "5"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "buttons": [
+        "ADDCMT"
+      ],
+      "type": "button-group-type1"
+    },
+    {
+      "id": "11",
+      "fields": [
+        {
+          "id": "LOGTITLE",
+          "fldTyp": "A",
+          "fldLen": "1"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "12",
+      "type": "table-type1",
+      "tableID": "SFLLOG",
+      "fields": [
+        {
+          "id": "LOGDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "LOGTIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "LOGSTS",
+          "fldTyp": "L",
+          "fldLen": "1"
+        },
+        {
+          "id": "LOGUSR",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "LOGUDS",
+          "fldTyp": "A",
+          "fldLen": "50"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "buttons": [
+        "FULLHIST"
+      ],
+      "type": "button-group-type1"
+    },
+    {
+      "id": "13",
+      "fields": [
+        {
+          "id": "NEWATT",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "ATTDIR",
+          "fldTyp": "A",
+          "fldLen": "60"
+        },
+        {
+          "id": "CRTDIR",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "GETBOX",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "GETDSC",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "GETTMP",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "14",
+      "buttons": [
+        "BROWSE",
+        "CLICK",
+        "MAIL",
+        "PRJRFPA",
+        "PRJRFPH",
+        "REOPEN"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME",
+    "PRJOBJ",
+    "PTIMLST"
+  ]
+}

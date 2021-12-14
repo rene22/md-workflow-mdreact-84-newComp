@@ -1,0 +1,98 @@
+{
+  "name": "RW0906",
+  "navigation": "Users in Group",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDGRP",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "3",
+      "type": "position-type1",
+      "fields": [
+        {
+          "id": "PUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "SFLOPT",
+          "type": "radio"
+        },
+        {
+          "id": "SFLOPT",
+          "type": "link",
+          "button": "SELECT"
+        },
+        {
+          "id": "PUSER",
+          "type": "position"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "SFLOPT",
+          "fldTyp": "O",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "UPDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDMAIL",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "UPEXTU",
+          "fldTyp": "A",
+          "fldLen": "20"
+        },
+        {
+          "id": "MDSGRP",
+          "fldTyp": "L",
+          "fldLen": "10"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "buttons": [
+        "ADD",
+        "BACK",
+        "POSITION",
+        "REFRESH"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

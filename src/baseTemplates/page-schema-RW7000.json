@@ -1,0 +1,24 @@
+{
+  "name": "RW7000",
+  "navigation": "MD License - Customer Selection",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "SRLNBR",
+          "fldTyp": "A",
+          "fldLen": "7"
+        }
+      ],
+      "buttons": [
+        "GO"
+      ],
+      "type": "action-type2",
+      "enable": "true"
+    }
+  ],
+  "links": [
+    "PARTNERS"
+  ]
+}

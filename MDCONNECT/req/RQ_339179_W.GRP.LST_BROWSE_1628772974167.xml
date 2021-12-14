@@ -1,0 +1,16 @@
+<operation>
+   <container type="GLOBAL">
+      <field id="ACTION" value="01"/>
+      <field id="FUNCTION" value="W.GRP.LST"/>
+      <field id="LANGID" value="E"/>
+      <field id="REQUESTCODE" value="BROWSE"/>
+      <field id="SCREEN" value="RW0902"/>
+      <field id="THREAD" value="1"/>
+   </container>
+   <container type="SCREEN">
+      <field id="FGRPT" value="" label="Group Type" editable="true" browse="true" focus="true"/>
+      <field id="FUSER" value="" label="User" editable="true" browse="true"/>
+      <field id="PGRP" value="" editable="true"/>
+      <caption value="Groups"/>
+   </container>
+</operation>

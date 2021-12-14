@@ -1,0 +1,68 @@
+{
+  "name": "RW0928",
+  "navigation": "Project Type Details",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDPRJT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDALWT",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDREQT",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDLREQ",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDDFTT",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "ALLFLD",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "ALLTRN",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "ALLTYP",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ],
+      "buttons": [
+        "BACK",
+        "SAVE",
+        "SAVENEXT",
+        "DELETE",
+        "CSTFLD"
+      ],
+      "type": "action-type2",
+      "enable": "true"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "RW0941",
+  "navigation": "Project/Task Status Boundaries for Level",
+  "frame": [
+    {
+      "id": "2",
+      "dropdowns": [
+        "MDAGP",
+        "RLRLOC",
+        "MDLVL",
+        "MDRFPA",
+        "MDSTMN",
+        "MDSTMX"
+      ],
+      "type": "action-type2",
+      "enable": "true",
+      "buttons": [
+        "BACK",
+        "SAVE",
+        "SAVENEXT",
+        "DELETE"
+      ]
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

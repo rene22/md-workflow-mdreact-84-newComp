@@ -1,0 +1,72 @@
+{
+  "name": "RW0935",
+  "navigation": "Project Phases",
+  "frame": [
+    {
+      "id": "2",
+      "type": "position-type1",
+      "fields": [
+        {
+          "id": "PSORT",
+          "fldTyp": "N",
+          "fldLen": "3"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "SFLOPT",
+          "type": "radio"
+        },
+        {
+          "id": "SFLOPT",
+          "type": "link",
+          "button": "SELECT"
+        },
+        {
+          "id": "PSORT",
+          "type": "position"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "SFLOPT",
+          "fldTyp": "O",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDSORT",
+          "fldTyp": "N",
+          "fldLen": "3"
+        },
+        {
+          "id": "MDPHAS",
+          "fldTyp": "A",
+          "fldLen": "5"
+        },
+        {
+          "id": "MDDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "buttons": [
+        "ADD",
+        "BACK",
+        "POSITION",
+        "REFRESH"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

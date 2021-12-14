@@ -1,0 +1,269 @@
+{
+  "name": "RW0020",
+  "navigation": "Project Tasks",
+  "frame": [
+    {
+      "id": "2",
+      "type": "switch-type1"
+    },
+    {
+      "id": "3",
+      "fields": [
+        {
+          "id": "MDPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "MMDSC",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "FUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "FRFP",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "FIREF",
+          "fldTyp": "A",
+          "fldLen": "20"
+        },
+        {
+          "id": "FAGRP",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "FTSTG",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "FAUSR",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "FTSTU",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "FDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "FSTSK",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "FCVAL",
+          "fldTyp": "A",
+          "fldLen": "60"
+        },
+        {
+          "id": "FATT",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ],
+      "type": "search-type1",
+      "enable": "true",
+      "dropdowns": [
+        "FAGP",
+        "FREFT",
+        "FRLOC",
+        "FTSKS",
+        "FCFLDT",
+        "FPRI",
+        "FTSKT"
+      ],
+      "cols": "3",
+      "buttons": [
+        "SEARCH",
+        "CLEAR"
+      ]
+    },
+    {
+      "id": "4",
+      "type": "position-type1",
+      "fields": [
+        {
+          "id": "PDUED",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "PTASK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "SFLOPT",
+          "type": "radio"
+        },
+        {
+          "id": "SFLOPT",
+          "type": "link",
+          "button": "SELECT"
+        },
+        {
+          "id": "MDTSKT",
+          "type": "link",
+          "button": "SELECT",
+          "action": {
+            "id": "SFLOPT",
+            "value": "2"
+          }
+        },
+        {
+          "id": "MDTSKS",
+          "type": "link",
+          "button": "SELECT",
+          "action": {
+            "id": "SFLOPT",
+            "value": "C"
+          }
+        },
+        {
+          "id": "PDUED",
+          "type": "position"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "SFLOPT",
+          "fldTyp": "O",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDDUED",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MDPRI",
+          "fldTyp": "L",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDTSKT",
+          "fldTyp": "L",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDTSKS",
+          "fldTyp": "L",
+          "fldLen": "2"
+        },
+        {
+          "id": "MDTASK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDSTSK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDASSN",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDIREF",
+          "fldTyp": "A",
+          "fldLen": "20"
+        },
+        {
+          "id": "ATTACH",
+          "fldTyp": "I",
+          "fldLen": "1"
+        },
+        {
+          "id": "URL",
+          "fldTyp": "I",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDDSC1",
+          "fldTyp": "A",
+          "fldLen": "180"
+        },
+        {
+          "id": "URLLNK",
+          "fldTyp": "A",
+          "fldLen": "160"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "fields": [
+        {
+          "id": "XLSPTH",
+          "fldTyp": "A",
+          "fldLen": "120"
+        },
+        {
+          "id": "MDIREFVIS",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "ATTACHVIS",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "URLVIS",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDIREFLBL",
+          "fldTyp": "A",
+          "fldLen": "15"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "7",
+      "buttons": [
+        "ADD",
+        "BACK",
+        "BROWSE",
+        "POSITION",
+        "REFRESH",
+        "REPORT"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME",
+    "PRJDET",
+    "PRJOBJ",
+    "PRJRFPA",
+    "PRJRFPH",
+    "RPTSET",
+    "TASKLST"
+  ]
+}

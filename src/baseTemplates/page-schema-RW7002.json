@@ -1,0 +1,27 @@
+{
+  "name": "RW7002",
+  "navigation": "Reseller Login",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "USRID",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "PASSWORD",
+          "fldTyp": "A",
+          "fldLen": "20"
+        }
+      ],
+      "buttons": [
+        "BACK",
+        "GO"
+      ],
+      "type": "action-type2",
+      "enable": "true"
+    }
+  ]
+}

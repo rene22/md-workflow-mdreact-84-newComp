@@ -1,0 +1,13 @@
+<operation>
+   <container type="GLOBAL">
+      <field id="FUNCTION" value="W.GET.BOX"/>
+      <field id="LANGID" value="E"/>
+      <field id="THREAD" value="1"/>
+   </container>
+   <container type="SCREEN">
+      <field id="MIDFUN" value="W.PROJ.DET"/>
+      <field id="GETTMP" value="false"/>
+      <field id="MDFLDN" value="*DSC"/>
+      <field id="MDPROJ" value="AMERICAN"/>
+   </container>
+</operation>

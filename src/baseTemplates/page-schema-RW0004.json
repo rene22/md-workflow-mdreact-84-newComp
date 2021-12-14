@@ -1,0 +1,66 @@
+{
+  "name": "RW0004",
+  "navigation": "Involved Group for a Project",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "MMDSC",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDGRPT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDGTDS",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDGRP",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "UPDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        }
+      ],
+      "dropdowns": [
+        "MDROLE"
+      ],
+      "type": "action-type2",
+      "enable": "true",
+      "buttons": [
+        "BACK",
+        "BROWSE",
+        "SAVE",
+        "SAVENEXT",
+        "DELETE"
+      ]
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

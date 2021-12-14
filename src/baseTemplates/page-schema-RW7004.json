@@ -1,0 +1,88 @@
+{
+  "name": "RW7004",
+  "navigation": "Customer Listing",
+  "frame": [
+    {
+      "id": "2",
+      "type": "switch-type1"
+    },
+    {
+      "id": "3",
+      "type": "search-type1",
+      "enable": "true",
+      "fields": [
+        {
+          "id": "FNAM",
+          "fldTyp": "A",
+          "fldLen": "20"
+        }
+      ],
+      "dropdowns": [
+        "FCSTS"
+      ],
+      "cols": "1",
+      "buttons": [
+        "SEARCH",
+        "CLEAR"
+      ]
+    },
+    {
+      "id": "4",
+      "type": "table-type1",
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "CSTNAM",
+          "fldTyp": "A",
+          "fldLen": "35"
+        },
+        {
+          "id": "CSTSTA",
+          "fldTyp": "A",
+          "fldLen": "2"
+        },
+        {
+          "id": "CSTLND",
+          "fldTyp": "L",
+          "fldLen": "2"
+        },
+        {
+          "id": "CSTSTS",
+          "fldTyp": "L",
+          "fldLen": "1"
+        },
+        {
+          "id": "CSTNBR",
+          "fldTyp": "N",
+          "fldLen": "7"
+        }
+      ],
+      "colType": [
+        {
+          "id": "CSTNAM",
+          "type": "link",
+          "button": "SELECT"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "fields": [
+        {
+          "id": "USRID",
+          "fldTyp": "A",
+          "fldLen": "10"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "6",
+      "buttons": [
+        "REFRESH",
+        "ADDCST"
+      ],
+      "type": "button-group-type1"
+    }
+  ]
+}

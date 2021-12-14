@@ -1,0 +1,118 @@
+{
+  "name": "RW0932",
+  "navigation": "Project/Task Custom Field Details",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDFLDN",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDSORT",
+          "fldTyp": "N",
+          "fldLen": "3"
+        },
+        {
+          "id": "MDFLDL",
+          "fldTyp": "N",
+          "fldLen": "4"
+        },
+        {
+          "id": "MDFLDD",
+          "fldTyp": "N",
+          "fldLen": "2"
+        },
+        {
+          "id": "MDDDLM",
+          "fldTyp": "N",
+          "fldLen": "2"
+        }
+      ],
+      "dropdowns": [
+        "MDFLDT",
+        "MDDDLV"
+      ],
+      "type": "action-type1",
+      "enable": "true",
+      "cols": "1"
+    },
+    {
+      "id": "3",
+      "dropdowns": [
+        "MDVISS",
+        "MDREQS",
+        "MDEDFS",
+        "MDEDTS"
+      ],
+      "type": "action-type1",
+      "enable": "true",
+      "fields": [
+        {
+          "id": "MDALWA",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDALWM",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDGRPT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDGTDS",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDWILD",
+          "fldTyp": "A",
+          "fldLen": "6"
+        },
+        {
+          "id": "MDUSEP",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDUSET",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDCPYC",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "buttons": [
+        "BACK",
+        "BROWSE",
+        "SAVE",
+        "SAVENEXT",
+        "DELETE",
+        "DDLLST",
+        "PRJTYP",
+        "TSKTYP"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

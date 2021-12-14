@@ -1,0 +1,189 @@
+{
+  "name": "RW0010",
+  "navigation": "",
+  "frame": [
+    {
+      "id": "2",
+      "type": "switch-type1"
+    },
+    {
+      "id": "3",
+      "fields": [
+        {
+          "id": "MDPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "MMDSC",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDTASK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDTDSC",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDSTSK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDSDSC",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "FUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "FOBJN",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "FRFP",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "FDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        }
+      ],
+      "type": "search-type1",
+      "enable": "true",
+      "dropdowns": [
+        "FTSTS",
+        "FAGP",
+        "FRLOC",
+        "FLVL",
+        "FRFPT"
+      ],
+      "cols": "3",
+      "buttons": [
+        "SEARCH",
+        "CLEAR"
+      ]
+    },
+    {
+      "id": "4",
+      "type": "position-type1",
+      "fields": [
+        {
+          "id": "PDATI",
+          "fldTyp": "D",
+          "fldLen": "8"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "SFLOPT",
+          "type": "radio"
+        },
+        {
+          "id": "SFLOPT",
+          "type": "link",
+          "button": "SELECT"
+        },
+        {
+          "id": "PDATI",
+          "type": "position"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "SFLOPT",
+          "fldTyp": "O",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDDATI",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MDAGP",
+          "fldTyp": "A",
+          "fldLen": "4"
+        },
+        {
+          "id": "RLRLOC",
+          "fldTyp": "L",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDLVL",
+          "fldTyp": "N",
+          "fldLen": "2"
+        },
+        {
+          "id": "MDRFP",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDDESC",
+          "fldTyp": "A",
+          "fldLen": "160"
+        },
+        {
+          "id": "MDUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MHTSTS",
+          "fldTyp": "L",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "fields": [
+        {
+          "id": "XLSPTH",
+          "fldTyp": "A",
+          "fldLen": "120"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "7",
+      "buttons": [
+        "BACK",
+        "BROWSE",
+        "POSITION",
+        "REFRESH",
+        "REPORT"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME",
+    "PRJDET",
+    "PRJOBJ",
+    "PRJRFPA",
+    "PRJTASK",
+    "PTIMLST",
+    "RPTSET",
+    "TSKOBJ"
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "name": "RW7001",
+  "navigation": "MD Licenses for Customer",
+  "frame": [
+    {
+      "id": "2",
+      "type": "switch-type1"
+    },
+    {
+      "id": "3",
+      "fields": [
+        {
+          "id": "CSTNAM",
+          "fldTyp": "A",
+          "fldLen": "35"
+        },
+        {
+          "id": "SUBMAX",
+          "fldTyp": "N",
+          "fldLen": "5"
+        },
+        {
+          "id": "SUBCNT",
+          "fldTyp": "N",
+          "fldLen": "5"
+        },
+        {
+          "id": "FSRLN",
+          "fldTyp": "A",
+          "fldLen": "7"
+        },
+        {
+          "id": "FDSC",
+          "fldTyp": "A",
+          "fldLen": "35"
+        }
+      ],
+      "type": "search-type1",
+      "enable": "true",
+      "dropdowns": [
+        "FPROD",
+        "FVER"
+      ],
+      "cols": "3",
+      "buttons": [
+        "SEARCH",
+        "CLEAR"
+      ]
+    },
+    {
+      "id": "4",
+      "dropdowns": [
+        "NEWVER"
+      ],
+      "type": "action-type1",
+      "enable": "true",
+      "cols": "1",
+      "buttons": [
+        "GO",
+        "CLEAR"
+      ]
+    },
+    {
+      "id": "5",
+      "type": "table-type1",
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "SRLNBR",
+          "fldTyp": "A",
+          "fldLen": "7"
+        },
+        {
+          "id": "PARNBR",
+          "fldTyp": "A",
+          "fldLen": "4"
+        },
+        {
+          "id": "MCHDSC",
+          "fldTyp": "A",
+          "fldLen": "35"
+        },
+        {
+          "id": "PRODUCT",
+          "fldTyp": "L",
+          "fldLen": "3"
+        },
+        {
+          "id": "VERSION",
+          "fldTyp": "A",
+          "fldLen": "6"
+        },
+        {
+          "id": "LICKEY",
+          "fldTyp": "A",
+          "fldLen": "19"
+        },
+        {
+          "id": "VALUNT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "LICSTS",
+          "fldTyp": "L",
+          "fldLen": "1"
+        },
+        {
+          "id": "DEVCNT",
+          "fldTyp": "N",
+          "fldLen": "3"
+        },
+        {
+          "id": "DELETE",
+          "fldTyp": "B",
+          "fldLen": "1",
+          "renderTyp": "btnCheckbox"
+        },
+        {
+          "id": "EXTEND",
+          "fldTyp": "B",
+          "fldLen": "1",
+          "renderTyp": "btnCheckbox"
+        },
+        {
+          "id": "LICNBR",
+          "fldTyp": "N",
+          "fldLen": "7"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "fields": [
+        {
+          "id": "FILPTH",
+          "fldTyp": "A",
+          "fldLen": "120"
+        },
+        {
+          "id": "LCLNAM",
+          "fldTyp": "A",
+          "fldLen": "40"
+        },
+        {
+          "id": "CSTNBR",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "USRID",
+          "fldTyp": "A",
+          "fldLen": "10"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "7",
+      "buttons": [
+        "BACK",
+        "REFRESH",
+        "EDTDSC",
+        "GENSAV",
+        "GENXLS",
+        "ADDSUB",
+        "ADDTRIAL",
+        "CHGHW"
+      ],
+      "type": "button-group-type1"
+    }
+  ]
+}

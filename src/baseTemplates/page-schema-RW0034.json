@@ -1,0 +1,25 @@
+{
+  "name": "RW0034",
+  "navigation": "Conflict List Settings",
+  "frame": [
+    {
+      "id": "2",
+      "dropdowns": [
+        "MDAGP",
+        "MDLOCT",
+        "MDLVLT",
+        "MDLOCP",
+        "MDLVLP"
+      ],
+      "type": "action-type2",
+      "enable": "true",
+      "buttons": [
+        "BACK",
+        "SAVE"
+      ]
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "name": "RW0028",
+  "navigation": "Status Selection",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "MMDSC",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDTASK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDTDSC",
+          "fldTyp": "A",
+          "fldLen": "240"
+        },
+        {
+          "id": "MDSTSK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDSDSC",
+          "fldTyp": "A",
+          "fldLen": "240"
+        }
+      ],
+      "dropdowns": [
+        "PTSTS"
+      ],
+      "type": "action-type1",
+      "enable": "true",
+      "cols": "2"
+    },
+    {
+      "id": "3",
+      "type": "table-type1",
+      "tableID": "SFLSTS",
+      "fields": [
+        {
+          "id": "NEWSTS",
+          "fldTyp": "L",
+          "fldLen": "1"
+        },
+        {
+          "id": "ERRMSG",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "SELROW",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ],
+      "colType": [
+        {
+          "id": "NEWSTS",
+          "type": "link",
+          "button": "SELECT"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "buttons": [
+        "BACK"
+      ],
+      "type": "button-group-type1"
+    }
+  ]
+}

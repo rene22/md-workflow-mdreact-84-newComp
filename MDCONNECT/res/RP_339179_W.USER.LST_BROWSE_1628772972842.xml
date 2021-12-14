@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operation>
+    <container type="GLOBAL">
+        <field id="ACTION" value="01"/>
+        <field id="FUNCTION" value="W.GRP.LST"/>
+        <field id="LANGID" value="E"/>
+        <field id="REQUESTCODE" value=""/>
+        <field id="SCREEN" value="RW0902"/>
+        <field id="THREAD" value="1"/>
+    </container>
+    <container type="REQUESTCODELIST">
+        <array type="button">
+            <item id="BACK" value="Back"/>
+            <item id="REFRESH" value="Refresh"/>
+            <item id="SEARCH" value="Search"/>
+            <item id="BROWSE" value=""/>
+            <item id="POSITION" value=""/>
+            <item id="SELECT" value=""/>
+        </array>
+        <array type="link" value="Links">
+            <item id="HOME" value="Project Listing"/>
+        </array>
+    </container>
+    <container type="SCREEN">
+        <caption value="Groups"/>
+        <field id="FGRPT" value="" label="Group Type" browse="true" editable="true"/>
+        <field id="FUSER" value="" label="User" browse="true" editable="true"/>
+        <field id="PGRP" value="" editable="true"/>
+        <grid id="SFL01" pagenr="1" maxpages="1">
+            <header>
+                <item id="SFLOPT" value="" linklist="1=Select,5=View,U=Users" linklistvalue="Options" />
+                <item id="MDGRP" value="Group" />
+                <item id="MDGRPT" value="Group Type" />
+                <item id="MDDESC" value="Description" />
+                <item id="USRCNT" value="Users" />
+            </header>
+            <rows>
+                <row nr="1">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDGRP" value="BA" editable="false" />
+                    <item id="MDGRPT" value="UAT" tooltip="User Acceptance Testing - All Applications" editable="false" />
+                    <item id="MDDESC" value="UAT - BA Review" editable="false" />
+                    <item id="USRCNT" value="4" editable="false" />
+                </row>
+                <row nr="2">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDGRP" value="ISSC" editable="false" />
+                    <item id="MDGRPT" value="ISSC" tooltip="ISSC Approvers" editable="false" />
+                    <item id="MDDESC" value="ISSC Approvers" editable="false" />
+                    <item id="USRCNT" value="3" editable="false" />
+                </row>
+                <row nr="3">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDGRP" value="MANAGERS" editable="false" />
+                    <item id="MDGRPT" value="MANAGERS" tooltip="Department managers who can enter access requests" editable="false" />
+                    <item id="MDDESC" value="Department managers who can enter access requests" editable="false" />
+                    <item id="USRCNT" value="2" editable="false" />
+                </row>
+                <row nr="4">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDGRP" value="MGR" editable="false" />
+                    <item id="MDGRPT" value="RLSMGR" tooltip="Release Manager" editable="false" />
+                    <item id="MDDESC" value="Manager" editable="false" />
+                    <item id="USRCNT" value="3" editable="false" />
+                </row>
+                <row nr="5">
+                    <item id="SFLOPT" value="" editable="true" />
+                    <item id="MDGRP" value="PGMR_US" editable="false" />
+                    <item id="MDGRPT" value="PGMT" tooltip="Programmers" editable="false" />
+                    <item id="MDDESC" value="Programmers in US" editable="false" />
+                    <item id="USRCNT" value="1" editable="false" />
+                </row>
+            </rows>
+        </grid>
+    </container>
+</operation> 

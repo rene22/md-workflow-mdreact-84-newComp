@@ -1,0 +1,40 @@
+{
+  "name": "RW0900",
+  "navigation": "Workflow Settings",
+  "frame": [
+    {
+      "id": "2",
+      "type": "table-type1",
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "MDFUNT",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDFUN",
+          "fldTyp": "A",
+          "fldLen": "10"
+        }
+      ],
+      "colType": [
+        {
+          "id": "MDFUNT",
+          "type": "link",
+          "button": "CLICK"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "buttons": [
+        "BACK"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

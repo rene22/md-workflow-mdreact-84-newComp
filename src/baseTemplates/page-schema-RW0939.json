@@ -1,0 +1,35 @@
+{
+  "name": "RW0939",
+  "navigation": "Recalculate Costs for Entered Time",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "STRDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "ENDDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "INCCLS",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ],
+      "buttons": [
+        "BACK",
+        "RECALC"
+      ],
+      "type": "action-type2",
+      "enable": "true"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "name": "RW0509",
+  "navigation": "Object Group Objects",
+  "frame": [
+    {
+      "id": "2",
+      "dropdowns": [
+        "MDRLOC",
+        "OGLVL"
+      ],
+      "type": "action-type1",
+      "enable": "true",
+      "fields": [
+        {
+          "id": "OGNAME",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "OGDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "OGRULE",
+          "fldTyp": "N",
+          "fldLen": "5"
+        }
+      ],
+      "cols": "2"
+    },
+    {
+      "id": "3",
+      "type": "position-type1",
+      "fields": [
+        {
+          "id": "POBJN",
+          "fldTyp": "A",
+          "fldLen": "10"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "table-type1",
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "MDOBJN",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDOBJT",
+          "fldTyp": "A",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDOLIB",
+          "fldTyp": "A",
+          "fldLen": "240"
+        },
+        {
+          "id": "MDDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDOBJA",
+          "fldTyp": "A",
+          "fldLen": "10"
+        }
+      ],
+      "colType": [
+        {
+          "id": "POBJN",
+          "type": "position"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "buttons": [
+        "BACK",
+        "POSITION",
+        "REFRESH"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

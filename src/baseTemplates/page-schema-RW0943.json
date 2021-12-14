@@ -1,0 +1,63 @@
+{
+  "name": "RW0943",
+  "navigation": "Transitions to a Status",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDPRJT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDTSKT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        }
+      ],
+      "dropdowns": [
+        "MDTGTS"
+      ],
+      "type": "action-type1",
+      "enable": "true",
+      "cols": "1"
+    },
+    {
+      "id": "3",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "ROWSEL",
+          "type": "checkbox"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "ROWSEL",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDFSTS",
+          "fldTyp": "L",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "buttons": [
+        "BACK",
+        "EXCALL",
+        "INCALL",
+        "SAVE"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

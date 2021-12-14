@@ -1,0 +1,31 @@
+{
+  "maxwait": 30,
+  "sessionPayload": {
+    "environment": "T84",
+    "userpid": "STUART",
+    "userexternal": "",
+    "client": "WORKFLOW",
+    "jobname": "",
+    "jobuser": "",
+    "jobnumber": "",
+    "mdxref": "",
+    "mdcms": "",
+    "builddate": "",
+    "dateformat": "",
+    "timeSep": "",
+    "returnmessage": "",
+    "threads": "1",
+    "version": "v8.4",
+    "systemuser": "",
+    "usercontrol": ""
+  },
+  "apiPaths": {
+    "MRDCONREP": "MRDCONREP",
+    "MDPRCDTAQ": "MDPRCDTAQ"
+  },
+  "debugMode": {
+    "debugOn": "true"
+  },
+  "deploymentMode": "local",
+  "apiPath": "https://dev.mdcms.ch:2500/"
+}

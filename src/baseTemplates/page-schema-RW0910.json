@@ -1,0 +1,70 @@
+{
+  "name": "RW0910",
+  "navigation": "Email Settings",
+  "frame": [
+    {
+      "id": "2",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "SFLOPT",
+          "type": "radio"
+        },
+        {
+          "id": "SFLOPT",
+          "type": "link",
+          "button": "SELECT"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "SFLOPT",
+          "fldTyp": "O",
+          "fldLen": "1"
+        },
+        {
+          "id": "RLRLOC",
+          "fldTyp": "L",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDSMHN",
+          "fldTyp": "A",
+          "fldLen": "60"
+        },
+        {
+          "id": "MDSMUS",
+          "fldTyp": "A",
+          "fldLen": "60"
+        },
+        {
+          "id": "MDMAIL",
+          "fldTyp": "A",
+          "fldLen": "60"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "dropdowns": [
+        "PRLOC"
+      ],
+      "type": "action-type1",
+      "enable": "true"
+    },
+    {
+      "id": "4",
+      "buttons": [
+        "ADD",
+        "BACK",
+        "POSITION",
+        "REFRESH"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" href="data:,">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MD Workflow App</title>
+</head>
+
+<body>
+
+  <!-- <body onClick="verifySession()"> -->
+
+  <!-- <body onkeydown="checkCode(event)"> -->
+
+  <body>
+    <div id="page"></div>
+
+    <script>
+
+      if (!navigator.cookieEnabled) {
+        // The browser does not support or is blocking cookies from being set.
+      }
+
+      function setCookie(cname, cvalue, exMins) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exMins * 60 * 1000));
+        var expires = "expires=" + d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+      }
+
+      function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+          }
+          if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+          }
+        }
+        return "";
+      }
+
+    </script>
+  </body>
+
+</html>

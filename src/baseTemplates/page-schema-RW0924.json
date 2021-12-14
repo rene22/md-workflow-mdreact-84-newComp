@@ -1,0 +1,83 @@
+{
+  "name": "RW0924",
+  "navigation": "Task Type Details",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDTSKT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDLREQ",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDALWC",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDCRTA",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDJIRI",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDJIRE",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDSNOI",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDSNOE",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "ALLFLD",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "ALLTRN",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "ALLPTT",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ],
+      "buttons": [
+        "BACK",
+        "SAVE",
+        "SAVENEXT",
+        "DELETE",
+        "CSTFLD"
+      ],
+      "type": "action-type2",
+      "enable": "true"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

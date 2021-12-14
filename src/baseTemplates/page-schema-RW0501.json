@@ -1,0 +1,70 @@
+{
+  "name": "RW0501",
+  "navigation": "Object Group Levels",
+  "frame": [
+    {
+      "id": "2",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "SFLOPT",
+          "type": "radio"
+        },
+        {
+          "id": "SFLOPT",
+          "type": "link",
+          "button": "SELECT"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "SFLOPT",
+          "fldTyp": "O",
+          "fldLen": "2"
+        },
+        {
+          "id": "MDRLOC",
+          "fldTyp": "L",
+          "fldLen": "10"
+        },
+        {
+          "id": "OGLVL",
+          "fldTyp": "N",
+          "fldLen": "2"
+        },
+        {
+          "id": "OGDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "OGREQD",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "dropdowns": [
+        "PRLOC"
+      ],
+      "type": "action-type1",
+      "enable": "true"
+    },
+    {
+      "id": "4",
+      "buttons": [
+        "ADD",
+        "BACK",
+        "POSITION",
+        "REFRESH"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

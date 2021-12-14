@@ -1,0 +1,139 @@
+{
+  "name": "RW0012",
+  "navigation": "RFP Test Status",
+  "frame": [
+    {
+      "id": "2",
+      "dropdowns": [
+        "MDAGP",
+        "RLRLOC",
+        "MDLVL",
+        "MHTSTS"
+      ],
+      "type": "action-type1",
+      "enable": "true",
+      "fields": [
+        {
+          "id": "MDRFP",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MHDSC",
+          "fldTyp": "A",
+          "fldLen": "160"
+        }
+      ],
+      "cols": "2"
+    },
+    {
+      "id": "3",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "ROWSEL",
+          "type": "checkbox"
+        },
+        {
+          "id": "ROWSEL",
+          "type": "link",
+          "button": "CLICK"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "ROWSEL",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "MDGRPTD",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDGRPD",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDUSERD",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDSTS",
+          "fldTyp": "L",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDDATE",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MDTIME",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MDGRPT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDGRP",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDCMNT",
+          "fldTyp": "A",
+          "fldLen": "120"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "fields": [
+        {
+          "id": "NEWCMT",
+          "fldTyp": "A",
+          "fldLen": "120"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "5",
+      "buttons": [
+        "BACK",
+        "REFRESH",
+        "UNDO",
+        "CONFACC",
+        "TASK",
+        "CONFREJ",
+        "ACCEPT",
+        "INPROGRESS",
+        "REJECT"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME",
+    "OBJLST",
+    "RFPLST"
+  ]
+}

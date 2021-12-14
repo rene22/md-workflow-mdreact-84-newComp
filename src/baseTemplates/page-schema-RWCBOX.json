@@ -1,0 +1,67 @@
+{
+  "name": "RWCBOX",
+  "navigation": "",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "MDTASK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDSTSK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDFLDN",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDCMTN",
+          "fldTyp": "N",
+          "fldLen": "5"
+        },
+        {
+          "id": "MDLINE",
+          "fldTyp": "A",
+          "fldLen": "9999"
+        },
+        {
+          "id": "RTLINE",
+          "fldTyp": "A",
+          "fldLen": "9999"
+        },
+        {
+          "id": "MDRICH",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "GETTMP",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MIDFUN",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MORE",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ],
+      "type": "field-type-1"
+    }
+  ]
+}

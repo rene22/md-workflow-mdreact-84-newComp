@@ -1,0 +1,56 @@
+{
+  "name": "RW0934",
+  "navigation": "Custom DDL Field Entry Details",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDFLDN",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDFDSC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDFLDC",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDSORT",
+          "fldTyp": "N",
+          "fldLen": "3"
+        },
+        {
+          "id": "MDFLDL",
+          "fldTyp": "N",
+          "fldLen": "3"
+        }
+      ],
+      "dropdowns": [
+        "MDSELF",
+        "MDSELT"
+      ],
+      "type": "action-type2",
+      "enable": "true",
+      "buttons": [
+        "BACK",
+        "SAVE",
+        "SAVENEXT",
+        "DELETE"
+      ]
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

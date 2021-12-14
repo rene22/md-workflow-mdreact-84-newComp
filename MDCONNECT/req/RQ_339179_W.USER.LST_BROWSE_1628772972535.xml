@@ -1,0 +1,19 @@
+<operation>
+   <container type="GLOBAL">
+      <field id="ACTION" value="01"/>
+      <field id="FUNCTION" value="W.USER.LST"/>
+      <field id="LANGID" value="E"/>
+      <field id="REQUESTCODE" value="BROWSE"/>
+      <field id="SCREEN" value="RW0905"/>
+      <field id="THREAD" value="1"/>
+   </container>
+   <container type="SCREEN">
+      <field id="FGRP" value="" label="Workflow Group" editable="true" browse="true" focus="true"/>
+      <field id="FMAIL" value="" label="Email Address" editable="true"/>
+      <field id="FDESC" value="" label="Description" editable="true"/>
+      <field id="FSGRP" value=" " label="MDSEC Group" editable="true"/>
+      <field id="PUSER" value="" editable="true"/>
+      <field id="PEXTU" value="" editable="true"/>
+      <caption value="Users"/>
+   </container>
+</operation>

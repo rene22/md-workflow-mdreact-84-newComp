@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operation>
+    <container type="GLOBAL">
+        <field id="ACTION" value="CLOSED"/>
+        <field id="FUNCTION" value="W.PROJ.DET"/>
+        <field id="LANGID" value="E"/>
+        <field id="REQUESTCODE" value=""/>
+        <field id="SCREEN" value="RW0002"/>
+        <field id="THREAD" value="1"/>
+    </container>
+    <container type="REQUESTCODELIST">
+        <array type="button">
+            <item id="BACK" value="Back"/>
+            <item id="REOPEN" value="Reopen"/>
+            <item id="PRJTASK" value="Tasks"/>
+            <item id="SENDMAIL" value="Send Email"/>
+            <item id="ADDCMT" value="Add New Comment"/>
+            <item id="FULLHIST" value="Full History"/>
+            <item id="CLICK" value=""/>
+            <item id="MAIL" value="MAIL"/>
+        </array>
+        <array type="link" value="Links">
+            <item id="HOME" value="Project Listing"/>
+            <item id="PRJTASK" value="Tasks"/>
+            <item id="PRJRFPA" value="Active RFPs"/>
+            <item id="PRJRFPH" value="Installed RFPs"/>
+            <item id="PRJOBJ" value="Project Objects"/>
+            <item id="PTIMLST" value="Time Entry"/>
+        </array>
+    </container>
+    <container type="SCREEN">
+        <caption value="Project Details"/>
+        <field id="ATTDIR" value="/MDCMS/ProjectDocs/US82/AMERICAN" editable="false" visible="false"/>
+        <field id="GETBOX" value="false" editable="false" visible="false"/>
+        <field id="GETDSC" value="true" editable="false" visible="false"/>
+        <field id="GETTMP" value="false" editable="false" visible="false"/>
+        <field id="MDLINE" value="false" label="Project Description" editable="false"/>
+        <field id="ATTTITLE" value="" label="Attachments" editable="false"/>
+        <field id="CMTTITLE" value="" label="Comments" editable="false"/>
+        <field id="CPYTSK" value="false" label="Copy Tasks to new Project" editable="false" visible="false"/>
+        <field id="CRTDIR" value="true" editable="false" visible="false"/>
+        <field id="GRPTITLE" value="" label="Involved Users" editable="false"/>
+        <field id="LOGTITLE" value="" label="Status History" editable="false"/>
+        <field id="MDAGP" value="SMPL" label="Application" editable="false"/>
+        <field id="MDPROJ" value="AMERICAN" label="Project" editable="false"/>
+        <field id="MMCSTE" value=".00" label="Cost estimated" editable="false"/>
+        <field id="MMDSC" value="Demo Project for American" label="Project Title" editable="false"/>
+        <field id="MMHRSE" value=".00" label="Hours estimated" editable="false"/>
+        <field id="MMODAT" value="20160830" label="Creation Date" editable="false"/>
+        <field id="MMPRI" value="3" label="Priority" editable="false"/>
+        <field id="MMSTCN" value="0" label="Subtasks" editable="false"/>
+        <field id="MMTCNT" value="8" label="Tasks" editable="false"/>
+        <field id="MMUSER" value="DONNAW" label="Requester" editable="false"/>
+        <field id="NEWATT" value="" editable="false" visible="false"/>
+        <field id="MMCSTA" value=".00" label="Cost actual" editable="false"/>
+        <field id="MMHRSA" value="27.00" label="Hours actual" editable="false"/>
+        <field id="MMOTIM" value="92426" editable="false"/>
+        <field id="MMPRJT" value="*DFT" label="Project Type" editable="false"/>
+        <field id="MMSTCE" value=".00" label="Cost estimated (Subtasks)" editable="false"/>
+        <field id="MMSTHE" value=".00" label="Hours estimated (Subtasks)" editable="false"/>
+        <field id="MMSTS" value="7" label="Status" editable="false"/>
+        <field id="MMTCSE" value=".00" label="Cost estimated (Tasks)" editable="false"/>
+        <field id="MMTHRE" value=".00" label="Hours estimated (Tasks)" editable="false"/>
+        <field id="USUDSC" value="Donna Westmoreland" editable="false"/>
+        <field id="MMEDAT" value="20160930" label="Completion Date" editable="false"/>
+        <field id="MMSTCA" value=".00" label="Cost actual (Subtasks)" editable="false"/>
+        <field id="MMSTHA" value=".00" label="Hours actual (Subtasks)" editable="false"/>
+        <field id="MMTCSA" value=".00" label="Cost actual (Tasks)" editable="false"/>
+        <field id="MMTHRA" value=".00" label="Hours actual (Tasks)" editable="false"/>
+        <grid id="SFLATT" pagenr="1" maxpages="1">
+            <header>
+                <item id="MDATTN" value="File Name" />
+                <item id="MDATTD" value="Attach Date" />
+                <item id="MDATTU" value="User" />
+                <item id="DELATT" value="" />
+            </header>
+            <rows></rows>
+        </grid>
+        <grid id="SFLCMT" pagenr="1" maxpages="1">
+            <header>
+                <item id="MDCDAT" value="Date" />
+                <item id="MDCTIM" value="Time" />
+                <item id="MDCUSR" value="by User" />
+                <item id="MDCLIN" value="Comments" />
+                <item id="MDCMTN" value="" />
+            </header>
+            <rows></rows>
+        </grid>
+        <grid id="SFLFLD" pagenr="1" maxpages="1">
+            <header>
+                <item id="MDFDSC" value="" />
+                <item id="MDFVAL" value="" />
+                <item id="MDFLDN" value="" />
+                <item id="MDFLDT" value="" />
+                <item id="MDFLDL" value="" />
+                <item id="MDFLDD" value="" />
+                <item id="MDFREQ" value="" />
+                <item id="MDDDLM" value="" />
+            </header>
+            <rows>
+                <row nr="1">
+                    <item id="MDFDSC" value="Application Area" editable="false" />
+                    <item id="MDFVAL" value="" editable="false" />
+                    <item id="MDFLDN" value="APP" editable="false" visible="false" />
+                    <item id="MDFLDT" value="A" editable="false" visible="false" />
+                    <item id="MDFLDL" value="30" editable="false" visible="false" />
+                    <item id="MDFLDD" value="0" editable="false" visible="false" />
+                    <item id="MDFREQ" value="false" editable="false" visible="false" />
+                    <item id="MDDDLM" value="0" editable="false" visible="false" />
+                </row>
+                <row nr="2">
+                    <item id="MDFDSC" value="Modules" editable="false" />
+                    <item id="MDFVAL" value="" editable="false" />
+                    <item id="MDFLDN" value="MODULES" editable="false" visible="false" />
+                    <item id="MDFLDT" value="A" editable="false" visible="false" />
+                    <item id="MDFLDL" value="20" editable="false" visible="false" />
+                    <item id="MDFLDD" value="0" editable="false" visible="false" />
+                    <item id="MDFREQ" value="false" editable="false" visible="false" />
+                    <item id="MDDDLM" value="0" editable="false" visible="false" />
+                </row>
+                <row nr="3">
+                    <item id="MDFDSC" value="User Requesting the Change" editable="false" />
+                    <item id="MDFVAL" value="" editable="false" />
+                    <item id="MDFLDN" value="USERREQ" editable="false" visible="false" />
+                    <item id="MDFLDT" value="P" editable="false" visible="false" />
+                    <item id="MDFLDL" value="10" editable="false" visible="false" />
+                    <item id="MDFLDD" value="0" editable="false" visible="false" />
+                    <item id="MDFREQ" value="false" editable="false" visible="false" />
+                    <item id="MDDDLM" value="1" editable="false" visible="false" />
+                </row>
+            </rows>
+        </grid>
+        <grid id="SFLGRP" pagenr="1" maxpages="1">
+            <header>
+                <item id="MDROLE" value="Role" />
+                <item id="MDGRPT" value="Group Type" />
+                <item id="GTREQ" value="Required" />
+                <item id="MDGRP" value="Group" />
+                <item id="MDUSER" value="User" />
+                <item id="ACTION1" value="" />
+                <item id="ACTION2" value="" />
+            </header>
+            <rows>
+                <row nr="1">
+                    <item id="MDROLE" value="A" editable="false" />
+                    <item id="MDGRPT" value="RLSMGR" tooltip="Release Manager" editable="false" />
+                    <item id="GTREQ" value="true" editable="false" />
+                    <item id="MDGRP" value="MGR" tooltip="Manager" editable="false" />
+                    <item id="MDUSER" value="" editable="false" />
+                    <item id="ACTION1" value="" editable="false" />
+                    <item id="ACTION2" value="" editable="false" />
+                </row>
+                <row nr="2">
+                    <item id="MDROLE" value="A" editable="false" />
+                    <item id="MDGRPT" value="UAT" tooltip="User Acceptance Testing - All Applications" editable="false" />
+                    <item id="GTREQ" value="true" editable="false" />
+                    <item id="MDGRP" value="BA" tooltip="UAT - BA Review" editable="false" />
+                    <item id="MDUSER" value="" editable="false" />
+                    <item id="ACTION1" value="" editable="false" />
+                    <item id="ACTION2" value="" editable="false" />
+                </row>
+                <row nr="3">
+                    <item id="MDROLE" value="T" editable="false" />
+                    <item id="MDGRPT" value="" editable="false" />
+                    <item id="GTREQ" value="false" editable="false" />
+                    <item id="MDGRP" value="" editable="false" />
+                    <item id="MDUSER" value="DONNAW" tooltip="Donna Westmoreland" editable="false" />
+                    <item id="ACTION1" value="" editable="false" />
+                    <item id="ACTION2" value="" editable="false" />
+                </row>
+            </rows>
+        </grid>
+        <grid id="SFLLOG" pagenr="1" maxpages="1">
+            <header>
+                <item id="LOGDAT" value="Date" />
+                <item id="LOGTIM" value="Time" />
+                <item id="LOGSTS" value="Status" />
+                <item id="LOGUSR" value="User ID" />
+                <item id="LOGUDS" value="User Name" />
+            </header>
+            <rows>
+                <row nr="1">
+                    <item id="LOGDAT" value="20180813" editable="false" />
+                    <item id="LOGTIM" value="213806" editable="false" />
+                    <item id="LOGSTS" value="7" editable="false" />
+                    <item id="LOGUSR" value="DONNAW" editable="false" />
+                    <item id="LOGUDS" value="Donna Westmoreland" editable="false" />
+                </row>
+                <row nr="2">
+                    <item id="LOGDAT" value="20180813" editable="false" />
+                    <item id="LOGTIM" value="213701" editable="false" />
+                    <item id="LOGSTS" value="3" editable="false" />
+                    <item id="LOGUSR" value="DONNAW" editable="false" />
+                    <item id="LOGUDS" value="Donna Westmoreland" editable="false" />
+                </row>
+                <row nr="3">
+                    <item id="LOGDAT" value="20180116" editable="false" />
+                    <item id="LOGTIM" value="113017" editable="false" />
+                    <item id="LOGSTS" value="7" editable="false" />
+                    <item id="LOGUSR" value="DONNAW" editable="false" />
+                    <item id="LOGUDS" value="Donna Westmoreland" editable="false" />
+                </row>
+                <row nr="4">
+                    <item id="LOGDAT" value="20160830" editable="false" />
+                    <item id="LOGTIM" value="92452" editable="false" />
+                    <item id="LOGSTS" value="3" editable="false" />
+                    <item id="LOGUSR" value="DONNAW" editable="false" />
+                    <item id="LOGUDS" value="Donna Westmoreland" editable="false" />
+                </row>
+                <row nr="5">
+                    <item id="LOGDAT" value="20160830" editable="false" />
+                    <item id="LOGTIM" value="92426" editable="false" />
+                    <item id="LOGSTS" value="1" editable="false" />
+                    <item id="LOGUSR" value="DONNAW" editable="false" />
+                    <item id="LOGUDS" value="Donna Westmoreland" editable="false" />
+                </row>
+            </rows>
+        </grid>
+    </container>
+</operation> 

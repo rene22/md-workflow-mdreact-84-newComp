@@ -1,0 +1,91 @@
+{
+  "name": "RW0015",
+  "navigation": "Time Entry Details",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDDATE",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MDPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "MDPROJD",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDTASK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDTASKD",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDSTSK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDSTSKD",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDUSERD",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MDHRSW",
+          "fldTyp": "N",
+          "fldLen": "4"
+        },
+        {
+          "id": "MDCMNT",
+          "fldTyp": "A",
+          "fldLen": "120"
+        },
+        {
+          "id": "MDCOST",
+          "fldTyp": "N",
+          "fldLen": "5"
+        },
+        {
+          "id": "MDCSTA",
+          "fldTyp": "N",
+          "fldLen": "9"
+        }
+      ],
+      "dropdowns": [
+        "MDPHAS"
+      ],
+      "type": "action-type2",
+      "enable": "true",
+      "buttons": [
+        "BACK",
+        "BROWSE",
+        "SAVE",
+        "SAVENEXT",
+        "DELETE"
+      ]
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

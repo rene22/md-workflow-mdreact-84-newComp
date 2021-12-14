@@ -1,0 +1,179 @@
+{
+  "name": "RW0011",
+  "navigation": "RFP Details",
+  "frame": [
+    {
+      "id": "2",
+      "dropdowns": [
+        "MDAGP",
+        "RLRLOC",
+        "MDLVL",
+        "MHINTS",
+        "MHTSTS"
+      ],
+      "type": "action-type2",
+      "enable": "true",
+      "fields": [
+        {
+          "id": "MDRFP",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MHUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MHFRFP",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MHDSC",
+          "fldTyp": "A",
+          "fldLen": "160"
+        },
+        {
+          "id": "MHDSRC",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MHDOBJ",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MHDIMS",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MHDIMO",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MHDLOG",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MHCREQ",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MHAREQ",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MHSREQ",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "MHCDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MHCTIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MHSDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MHSTIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MHSUSR",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MHADAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MHATIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MHAUSR",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MHIDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MHITIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MHIUSR",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MHRDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MHRTIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MHEDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MHETIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MHEUSR",
+          "fldTyp": "A",
+          "fldLen": "10"
+        }
+      ],
+      "buttons": [
+        "BACK",
+        "BROWSE",
+        "SAVE",
+        "APPROVE",
+        "OBJLST",
+        "REFRESH",
+        "REJECT",
+        "SETDFT",
+        "INSTALL"
+      ]
+    }
+  ],
+  "links": [
+    "HOME",
+    "PTIMLST",
+    "RFPPRJ",
+    "RFPTSK",
+    "TSTSTS",
+    "OBJGRP"
+  ]
+}

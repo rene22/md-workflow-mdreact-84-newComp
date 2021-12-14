@@ -1,0 +1,53 @@
+{
+  "name": "RW0938",
+  "navigation": "Project Cost Details",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDPRJT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDTSKT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDPHAS",
+          "fldTyp": "A",
+          "fldLen": "5"
+        },
+        {
+          "id": "MDUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDSORT",
+          "fldTyp": "N",
+          "fldLen": "3"
+        },
+        {
+          "id": "MDCOST",
+          "fldTyp": "N",
+          "fldLen": "7"
+        }
+      ],
+      "buttons": [
+        "BACK",
+        "BROWSE",
+        "SAVE",
+        "SAVENEXT",
+        "DELETE"
+      ],
+      "type": "action-type2",
+      "enable": "true"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

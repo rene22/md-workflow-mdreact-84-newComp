@@ -1,0 +1,27 @@
+<operation>
+   <container type="GLOBAL">
+      <field id="ACTION" value="01"/>
+      <field id="FUNCTION" value="W.RFP.LST"/>
+      <field id="LANGID" value="E"/>
+      <field id="REQUESTCODE" value="BACK"/>
+      <field id="SCREEN" value="RW0013"/>
+      <field id="THREAD" value="1"/>
+   </container>
+   <container type="SCREEN">
+      <field id="FUSER" value="" label="User" editable="true" browse="true"/>
+      <field id="FPROJ" value="" label="Project" editable="true" browse="true"/>
+      <field id="FTASK" value="0" label="Task" editable="true" browse="true"/>
+      <field id="FSTSK" value="0" label="Subtask" editable="true" browse="true"/>
+      <field id="FAGP" value="" label="Application" editable="true"/>
+      <field id="FRLOC" value="" label="Location" editable="true"/>
+      <field id="FLVL" value="" label="Level" editable="true"/>
+      <field id="FRFP" value="0" label="RFP" editable="true"/>
+      <field id="FRFPT" value="C" label="RFP Type" editable="true"/>
+      <field id="FDESC" value="" label="Description" editable="true"/>
+      <field id="FOBJN" value="" label="Object Name" editable="true" browse="true"/>
+      <field id="FRSTS" value="" label="RFP Status" editable="true"/>
+      <field id="FTSTS" value="" label="Test Status" editable="true"/>
+      <field id="PCDAT" value="0" editable="true"/>
+      <caption value="RFP Listing"/>
+   </container>
+</operation>

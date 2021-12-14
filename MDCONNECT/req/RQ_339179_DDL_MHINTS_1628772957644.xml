@@ -1,0 +1,10 @@
+<operation>
+   <container type="GLOBAL">
+      <field id="ACTION" value=""/>
+      <field id="FUNCTION" value="GETDDLIST"/>
+      <field id="LANGID" value="E"/>
+      <field id="REQUESTCODE" value="MHINTS"/>
+      <field id="SCREEN" value=""/>
+      <field id="THREAD" value="1"/>
+   </container>
+</operation>

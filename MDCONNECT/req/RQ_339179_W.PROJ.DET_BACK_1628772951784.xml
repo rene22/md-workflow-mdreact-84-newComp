@@ -1,0 +1,51 @@
+<operation>
+   <container type="GLOBAL">
+      <field id="ACTION" value="CLOSED"/>
+      <field id="FUNCTION" value="W.PROJ.DET"/>
+      <field id="LANGID" value="E"/>
+      <field id="REQUESTCODE" value="BACK"/>
+      <field id="SCREEN" value="RW0002"/>
+      <field id="THREAD" value="1"/>
+   </container>
+   <container type="SCREEN">
+      <field id="CPYTSK" value="false" label="Copy Tasks to new Project" editable="false" browse="false" visible="false"/>
+      <field id="ATTDIR" value="/MDCMS/ProjectDocs/US82/AMERICAN" editable="false" browse="false" visible="false"/>
+      <field id="CRTDIR" value="true" editable="false" browse="false" visible="false"/>
+      <field id="NEWATT" value="" editable="false" browse="false" visible="false"/>
+      <field id="GETTMP" value="false" editable="false" browse="false" visible="false"/>
+      <field id="MIDFUN" value="W.PROJ.DET" editable="false" visible="false"/>
+      <grid id="SFLCMT"/>
+      <grid id="SFLATT"/>
+      <grid id="SFLFLD">
+         <rows>
+            <row nr="1">
+               <item id="MDFLDN" value="APP" editable="false" visible="false"/>
+               <item id="MDFLDL" value="30" editable="false" visible="false"/>
+               <item id="MDFLDT" value="A" editable="false" visible="false"/>
+               <item id="MDFLDD" value="0" editable="false" visible="false"/>
+               <item id="MDFREQ" value="false" editable="false" visible="false"/>
+               <item id="MDDDLM" value="0" editable="false" visible="false"/>
+            </row>
+            <row nr="2">
+               <item id="MDFLDN" value="MODULES" editable="false" visible="false"/>
+               <item id="MDFLDL" value="20" editable="false" visible="false"/>
+               <item id="MDFLDT" value="A" editable="false" visible="false"/>
+               <item id="MDFLDD" value="0" editable="false" visible="false"/>
+               <item id="MDFREQ" value="false" editable="false" visible="false"/>
+               <item id="MDDDLM" value="0" editable="false" visible="false"/>
+            </row>
+            <row nr="3">
+               <item id="MDFLDN" value="USERREQ" editable="false" visible="false"/>
+               <item id="MDFLDL" value="10" editable="false" visible="false"/>
+               <item id="MDFLDT" value="P" editable="false" visible="false"/>
+               <item id="MDFLDD" value="0" editable="false" visible="false"/>
+               <item id="MDFREQ" value="false" editable="false" visible="false"/>
+               <item id="MDDDLM" value="1" editable="false" visible="false"/>
+            </row>
+         </rows>
+      </grid>
+      <grid id="SFLLOG"/>
+      <grid id="SFLGRP"/>
+      <caption value="Project Details"/>
+   </container>
+</operation>

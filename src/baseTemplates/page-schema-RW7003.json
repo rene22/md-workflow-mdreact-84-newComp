@@ -1,0 +1,118 @@
+{
+  "name": "RW7003",
+  "navigation": "Generate New Licenses",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "CSTNAM",
+          "fldTyp": "A",
+          "fldLen": "35"
+        },
+        {
+          "id": "CSTSTA",
+          "fldTyp": "A",
+          "fldLen": "2"
+        }
+      ],
+      "dropdowns": [
+        "CSTLND",
+        "NEWVER"
+      ],
+      "type": "action-type1",
+      "enable": "true",
+      "cols": 0
+    },
+    {
+      "id": "3",
+      "type": "table-type1",
+      "tableID": "SFLSYS",
+      "fields": [
+        {
+          "id": "SRLNBR",
+          "fldTyp": "A",
+          "fldLen": "7"
+        },
+        {
+          "id": "PARNBR",
+          "fldTyp": "N",
+          "fldLen": "3"
+        },
+        {
+          "id": "MCHDSC",
+          "fldTyp": "A",
+          "fldLen": "35"
+        },
+        {
+          "id": "DEVCNT",
+          "fldTyp": "N",
+          "fldLen": "3"
+        },
+        {
+          "id": "ROWOPN",
+          "fldTyp": "A",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "fields": [
+        {
+          "id": "DSPPARNBR",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "5",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "SELPRD",
+          "type": "checkbox"
+        }
+      ],
+      "tableID": "SFLPRD",
+      "fields": [
+        {
+          "id": "SELPRD",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "PRODUCT",
+          "fldTyp": "L",
+          "fldLen": "3"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "fields": [
+        {
+          "id": "CSTNBR",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "USRID",
+          "fldTyp": "A",
+          "fldLen": "10"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "7",
+      "buttons": [
+        "BACK",
+        "GO"
+      ],
+      "type": "button-group-type1"
+    }
+  ]
+}

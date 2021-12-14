@@ -1,0 +1,161 @@
+{
+  "name": "RW0507",
+  "navigation": "Object Group Inclusion Rule Details",
+  "frame": [
+    {
+      "id": "2",
+      "dropdowns": [
+        "MDRLOC",
+        "OGLVL",
+        "OGAGP",
+        "OGEAGP"
+      ],
+      "type": "action-type1",
+      "enable": "true",
+      "fields": [
+        {
+          "id": "OGNAME",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "OGDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "OGRULE",
+          "fldTyp": "N",
+          "fldLen": "5"
+        },
+        {
+          "id": "HELP1",
+          "fldTyp": "A",
+          "fldLen": "90"
+        },
+        {
+          "id": "HELP2",
+          "fldTyp": "A",
+          "fldLen": "90"
+        },
+        {
+          "id": "HELP3",
+          "fldTyp": "A",
+          "fldLen": "90"
+        },
+        {
+          "id": "OGLIBD",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "OGELIB",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "OGSLBD",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "OGESLB",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "OGSFLD",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "OGESFL",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "OGOBJ",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "OGEOBJ",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "OGOBJT",
+          "fldTyp": "A",
+          "fldLen": "7"
+        },
+        {
+          "id": "OGEOBT",
+          "fldTyp": "A",
+          "fldLen": "7"
+        },
+        {
+          "id": "OGOBJA",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "OGEOBA",
+          "fldTyp": "A",
+          "fldLen": "10"
+        }
+      ],
+      "cols": "2"
+    },
+    {
+      "id": "3",
+      "fields": [
+        {
+          "id": "OGCDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "OGCTIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "OGCUSR",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "OGMDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "OGMTIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "OGMUSR",
+          "fldTyp": "A",
+          "fldLen": "10"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "4",
+      "buttons": [
+        "BACK",
+        "BROWSE",
+        "SAVE",
+        "SAVENEXT",
+        "DELETE",
+        "OBJGRO"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

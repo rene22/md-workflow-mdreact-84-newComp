@@ -1,0 +1,38 @@
+{
+  "name": "RW0927",
+  "navigation": "Edit Email Address",
+  "frame": [
+    {
+      "id": "2",
+      "fields": [
+        {
+          "id": "MDUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDNAME",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "MDMAIL",
+          "fldTyp": "A",
+          "fldLen": "80"
+        }
+      ],
+      "buttons": [
+        "BACK",
+        "BROWSE",
+        "SAVE",
+        "SAVENEXT",
+        "DELETE"
+      ],
+      "type": "action-type2",
+      "enable": "true"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

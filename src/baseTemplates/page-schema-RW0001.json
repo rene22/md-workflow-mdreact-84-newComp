@@ -1,0 +1,248 @@
+{
+  "name": "RW0001",
+  "navigation": "Projects",
+  "frame": [
+    {
+      "id": "2",
+      "type": "switch-type1"
+    },
+    {
+      "id": "3",
+      "type": "search-type1",
+      "enable": "true",
+      "fields": [
+        {
+          "id": "FUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "FRFP",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "FIGRP",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "FINUS",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "FEDTF",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "FPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "FEDTT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "FDSC",
+          "fldTyp": "A",
+          "fldLen": "30"
+        },
+        {
+          "id": "FATT",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "FCVAL",
+          "fldTyp": "A",
+          "fldLen": "60"
+        }
+      ],
+      "dropdowns": [
+        "FAGP",
+        "FPRI",
+        "FRLOC",
+        "FSTS",
+        "FCFLDP",
+        "FPRJT"
+      ],
+      "cols": "3",
+      "buttons": [
+        "SEARCH",
+        "CLEAR"
+      ]
+    },
+    {
+      "id": "5",
+      "type": "position-type1",
+      "fields": [
+        {
+          "id": "PPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "SFLOPT",
+          "type": "radio"
+        },
+        {
+          "id": "SFLOPT",
+          "type": "link",
+          "button": "SELECT"
+        },
+        {
+          "id": "MDPROJ",
+          "type": "link",
+          "button": "SELECT",
+          "action": {
+            "id": "SFLOPT",
+            "value": "2"
+          }
+        },
+        {
+          "id": "MMTCNT",
+          "type": "link",
+          "button": "SELECT",
+          "action": {
+            "id": "SFLOPT",
+            "value": "T"
+          }
+        },
+        {
+          "id": "MMSTS",
+          "type": "link",
+          "button": "SELECT",
+          "action": {
+            "id": "SFLOPT",
+            "value": "C"
+          }
+        },
+        {
+          "id": "PPROJ",
+          "type": "position"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "SFLOPT",
+          "fldTyp": "O",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "MMDSC",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "MMTCNT",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MMPRJT",
+          "fldTyp": "L",
+          "fldLen": "10"
+        },
+        {
+          "id": "MMUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MMSTS",
+          "fldTyp": "L",
+          "fldLen": "1"
+        },
+        {
+          "id": "MMPRI",
+          "fldTyp": "L",
+          "fldLen": "1"
+        },
+        {
+          "id": "MMEDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "ATTACH",
+          "fldTyp": "I",
+          "fldLen": "1"
+        },
+        {
+          "id": "URL",
+          "fldTyp": "I",
+          "fldLen": "1"
+        },
+        {
+          "id": "URLLNK",
+          "fldTyp": "A",
+          "fldLen": "160"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "fields": [
+        {
+          "id": "XLSPTH",
+          "fldTyp": "A",
+          "fldLen": "120"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "fields": [
+        {
+          "id": "ATTACHVIS",
+          "fldTyp": "B",
+          "fldLen": "1"
+        },
+        {
+          "id": "URLVIS",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "buttons": [
+        "ADD",
+        "BROWSE",
+        "POSITION",
+        "REFRESH",
+        "REPORT",
+        "BACK"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "CALENDAR",
+    "LIVLST",
+    "OBJGRP",
+    "OBJLST",
+    "PTIMLST",
+    "RFPLST",
+    "RPTSET",
+    "SETTINGS",
+    "TASKLST"
+  ]
+}

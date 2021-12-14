@@ -1,0 +1,154 @@
+{
+  "name": "RW0101",
+  "navigation": "RFP Installation Schedule",
+  "frame": [
+    {
+      "id": "2",
+      "type": "switch-type1"
+    },
+    {
+      "id": "3",
+      "type": "search-type1",
+      "enable": "true",
+      "dropdowns": [
+        "FRSTS",
+        "FRLOC",
+        "FAGP",
+        "FLVL",
+        "FRFPT"
+      ],
+      "fields": [
+        {
+          "id": "FOBJN",
+          "fldTyp": "A",
+          "fldLen": "50"
+        },
+        {
+          "id": "FPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "FTASK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "FSTSK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "FRFP",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "IFDATE",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "ITDATE",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "IADATE",
+          "fldTyp": "D",
+          "fldLen": "8"
+        }
+      ],
+      "cols": "2",
+      "buttons": [
+        "SEARCH",
+        "CLEAR"
+      ]
+    },
+    {
+      "id": "4",
+      "type": "table-type1",
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "MHIDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MHITIM",
+          "fldTyp": "T",
+          "fldLen": "6"
+        },
+        {
+          "id": "MDAGP",
+          "fldTyp": "A",
+          "fldLen": "4"
+        },
+        {
+          "id": "RLRLOC",
+          "fldTyp": "L",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDLVL",
+          "fldTyp": "N",
+          "fldLen": "2"
+        },
+        {
+          "id": "MDRFP",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MHDSC",
+          "fldTyp": "A",
+          "fldLen": "160"
+        },
+        {
+          "id": "MHRDAT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MHINTS",
+          "fldTyp": "L",
+          "fldLen": "2"
+        }
+      ],
+      "colType": [
+        {
+          "id": "MHIDAT",
+          "type": "link",
+          "button": "CLICK"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "fields": [
+        {
+          "id": "XLSPTH",
+          "fldTyp": "A",
+          "fldLen": "120"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "6",
+      "buttons": [
+        "BACK",
+        "BROWSE",
+        "REFRESH",
+        "REPORT"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME",
+    "RPTSET",
+    "TASKLST"
+  ]
+}

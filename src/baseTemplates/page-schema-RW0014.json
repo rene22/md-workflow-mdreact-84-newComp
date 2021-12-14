@@ -1,0 +1,185 @@
+{
+  "name": "RW0014",
+  "navigation": "Time Entry Listing",
+  "frame": [
+    {
+      "id": "2",
+      "type": "switch-type1"
+    },
+    {
+      "id": "3",
+      "type": "search-type1",
+      "enable": "true",
+      "fields": [
+        {
+          "id": "FPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "FTASK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "FSTSK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "FUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "FCMNT",
+          "fldTyp": "A",
+          "fldLen": "20"
+        },
+        {
+          "id": "FDATF",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "FDATT",
+          "fldTyp": "D",
+          "fldLen": "8"
+        }
+      ],
+      "dropdowns": [
+        "FPHAS"
+      ],
+      "cols": "3",
+      "buttons": [
+        "SEARCH",
+        "CLEAR"
+      ]
+    },
+    {
+      "id": "4",
+      "fields": [
+        {
+          "id": "TOTHRS",
+          "fldTyp": "N",
+          "fldLen": "15"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "5",
+      "type": "position-type1",
+      "fields": [
+        {
+          "id": "PDATE",
+          "fldTyp": "D",
+          "fldLen": "8"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "SFLOPT",
+          "type": "radio"
+        },
+        {
+          "id": "SFLOPT",
+          "type": "link",
+          "button": "SELECT"
+        },
+        {
+          "id": "PDATE",
+          "type": "position"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "SFLOPT",
+          "fldTyp": "O",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDDATE",
+          "fldTyp": "D",
+          "fldLen": "8"
+        },
+        {
+          "id": "MDPROJ",
+          "fldTyp": "A",
+          "fldLen": "12"
+        },
+        {
+          "id": "MDTASK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDSTSK",
+          "fldTyp": "N",
+          "fldLen": "7"
+        },
+        {
+          "id": "MDPHAS",
+          "fldTyp": "L",
+          "fldLen": "5"
+        },
+        {
+          "id": "MDUSER",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDHRSW",
+          "fldTyp": "N",
+          "fldLen": "4"
+        },
+        {
+          "id": "MDCMNT",
+          "fldTyp": "A",
+          "fldLen": "120"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "fields": [
+        {
+          "id": "XLSPTH",
+          "fldTyp": "A",
+          "fldLen": "120"
+        }
+      ],
+      "type": "field-type-1"
+    },
+    {
+      "id": "8",
+      "buttons": [
+        "ADD",
+        "BACK",
+        "BROWSE",
+        "LASTMONTH",
+        "LASTWEEK",
+        "LASTYEAR",
+        "POSITION",
+        "REFRESH",
+        "REPORT",
+        "THISMONTH",
+        "THISWEEK",
+        "THISYEAR",
+        "TODAY",
+        "YESTERDAY"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME",
+    "PTIMLST",
+    "RPTSET"
+  ]
+}

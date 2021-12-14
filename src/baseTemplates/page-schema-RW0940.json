@@ -1,0 +1,75 @@
+{
+  "name": "RW0940",
+  "navigation": "",
+  "frame": [
+    {
+      "id": "2",
+      "type": "switch-type1"
+    },
+    {
+      "id": "3",
+      "fields": [
+        {
+          "id": "MDPRJT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDTSKT",
+          "fldTyp": "A",
+          "fldLen": "10"
+        }
+      ],
+      "type": "search-type1",
+      "enable": "true",
+      "dropdowns": [
+        "FFSTS",
+        "FTGTS"
+      ],
+      "cols": "2",
+      "buttons": [
+        "SEARCH",
+        "CLEAR"
+      ]
+    },
+    {
+      "id": "4",
+      "type": "table-type1",
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "MDSTAT",
+          "fldTyp": "L",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDFSTS",
+          "fldTyp": "A",
+          "fldLen": "60"
+        },
+        {
+          "id": "MDTGTS",
+          "fldTyp": "A",
+          "fldLen": "60"
+        }
+      ],
+      "colType": [
+        {
+          "id": "MDSTAT",
+          "type": "link",
+          "button": "SELECT"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "buttons": [
+        "BACK"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

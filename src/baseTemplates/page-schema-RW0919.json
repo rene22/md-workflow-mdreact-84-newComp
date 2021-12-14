@@ -1,0 +1,107 @@
+{
+  "name": "RW0919",
+  "navigation": "Project/Task Status Boundaries per Level",
+  "frame": [
+    {
+      "id": "2",
+      "type": "switch-type1"
+    },
+    {
+      "id": "3",
+      "type": "search-type1",
+      "enable": "true",
+      "dropdowns": [
+        "FAGP",
+        "FRLOC",
+        "FLVL",
+        "FRFPA"
+      ],
+      "cols": "2",
+      "buttons": [
+        "SEARCH",
+        "CLEAR"
+      ]
+    },
+    {
+      "id": "4",
+      "type": "position-type1",
+      "fields": [
+        {
+          "id": "PAGP",
+          "fldTyp": "A",
+          "fldLen": "4"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "SFLOPT",
+          "type": "radio"
+        },
+        {
+          "id": "SFLOPT",
+          "type": "link",
+          "button": "SELECT"
+        },
+        {
+          "id": "PAGP",
+          "type": "position"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "SFLOPT",
+          "fldTyp": "O",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDAGP",
+          "fldTyp": "A",
+          "fldLen": "4"
+        },
+        {
+          "id": "RLRLOC",
+          "fldTyp": "L",
+          "fldLen": "10"
+        },
+        {
+          "id": "MDLVL",
+          "fldTyp": "L",
+          "fldLen": "2"
+        },
+        {
+          "id": "MDRFPA",
+          "fldTyp": "L",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDSTMN",
+          "fldTyp": "L",
+          "fldLen": "1"
+        },
+        {
+          "id": "MDSTMX",
+          "fldTyp": "L",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "buttons": [
+        "ADD",
+        "BACK",
+        "POSITION",
+        "REFRESH"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

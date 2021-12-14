@@ -1,0 +1,124 @@
+{
+  "name": "RW0506",
+  "navigation": "Object Group Inclusion Rules",
+  "frame": [
+    {
+      "id": "2",
+      "dropdowns": [
+        "MDRLOC",
+        "OGLVL"
+      ],
+      "type": "action-type1",
+      "enable": "true",
+      "fields": [
+        {
+          "id": "OGNAME",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "OGDESC",
+          "fldTyp": "A",
+          "fldLen": "50"
+        }
+      ],
+      "cols": "2"
+    },
+    {
+      "id": "3",
+      "type": "position-type1",
+      "fields": [
+        {
+          "id": "PRULE",
+          "fldTyp": "N",
+          "fldLen": "5"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "table-type1",
+      "colType": [
+        {
+          "id": "SFLOPT",
+          "type": "radio"
+        },
+        {
+          "id": "SFLOPT",
+          "type": "link",
+          "button": "SELECT"
+        },
+        {
+          "id": "PRULE",
+          "type": "position"
+        }
+      ],
+      "tableID": "SFL01",
+      "fields": [
+        {
+          "id": "SFLOPT",
+          "fldTyp": "O",
+          "fldLen": "2"
+        },
+        {
+          "id": "OGRULE",
+          "fldTyp": "N",
+          "fldLen": "5"
+        },
+        {
+          "id": "OGAGP",
+          "fldTyp": "A",
+          "fldLen": "4"
+        },
+        {
+          "id": "OGLIBD",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "OGSLBD",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "OGSFLD",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "OGOBJ",
+          "fldTyp": "A",
+          "fldLen": "80"
+        },
+        {
+          "id": "OGOBJT",
+          "fldTyp": "A",
+          "fldLen": "7"
+        },
+        {
+          "id": "OGOBJA",
+          "fldTyp": "A",
+          "fldLen": "10"
+        },
+        {
+          "id": "OGEXPT",
+          "fldTyp": "B",
+          "fldLen": "1"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "buttons": [
+        "ADD",
+        "BACK",
+        "POSITION",
+        "REFRESH"
+      ],
+      "type": "button-group-type1"
+    }
+  ],
+  "links": [
+    "HOME"
+  ]
+}

@@ -1,0 +1,261 @@
+{
+    "siteSettings": {
+        "rowHeight": "30",
+        "maxRows": "15",
+        "drawerWidth": "250"
+    },
+    "customisation": {
+        "overrides": {
+            "MuiAppBar": {
+                "root": {
+                    "position": "fixed",
+                    "zIndex": "`${muiBaseTheme.zIndex.drawer + 1}`"
+                },
+                "colorPrimary": {
+                    "backgroundColor": "#072f67"
+                }
+            },
+            "MuiDrawer": {
+                "root": {
+                    "width": "`${siteSettings.drawerWidth}px`",
+                    "flexShrink": 0
+                },
+                "paper": {
+                    "width": "`${siteSettings.drawerWidth}px`",
+                    "background": "#292e33 url('./sidebar.png') no-repeat 50% 100%",
+                    "color": "#FFFFFF"
+                }
+            },
+            "MuiToolbar": {
+                "root": {
+                    "display": "flex",
+                    "alignItems": "center",
+                    "padding": "`${muiBaseTheme.spacing(0,1)}`"
+                }
+            },
+            "MuiFormControl": {
+                "root": {
+                    "margin": "6px 4px 6px 4px",
+                    "width": "100%",
+                    "backgroundColor": "#fff"
+                }
+            },
+            "MuiFormControlLabel": {
+                "root": {
+                    "margin": "4px 2px 4px 2px",
+                    "marginLeft": "2px"
+                }
+            },
+            "MuiOutlinedInput": {
+                "inputMarginDense": {
+                    "paddingTop": "8.5px",
+                    "paddingBottom": "8.5px"
+                },
+                "input": {
+                    "paddingTop": "8.5px",
+                    "paddingBottom": "8.5px"
+                }
+            },
+            "MuiInputBase": {
+                "input": {
+                    "paddingTop": "10.5px",
+                    "paddingBottom": "10.5px",
+                    "&.Mui-disabled": {
+                        "color": "#3c3f42"
+                    }
+                }
+            },
+            "MuiInputLabel": {
+                "outlined": {
+                    "transform": "translate(14px,12px) scale(1)",
+                    "fontWeight": "100"
+                },
+                "marginDense": {
+                    "transform": "translate(14px,12px) scale(1)"
+                }
+            },
+            "MuiTypography": {
+                "body1": {
+                    "fontSize": "1rem"
+                }
+            },
+            "MuiButton": {
+                "root": {
+                    "padding": "3px 10px"
+                },
+                "contained": {
+                    "fontWeight": "bold"
+                },
+                "containedPrimary": {
+                    "backgroundColor": "#072f67"
+                }
+            },
+            "MuiIconButton": {
+                "root": {
+                    "padding": "0px"
+                }
+            },
+            "MuiTableContainer": {
+                "root": {
+                    "boxShadow": "none",
+                    "maxHeight": "`${siteSettings.rowHeight * siteSettings.maxRows}px`"
+                }
+            },
+            "MuiTableCell": {
+                "head": {
+                    "backgroundColor": "#fff",
+                    "fontWeight": "bold",
+                    "color": "#000"
+                },
+                "sizeSmall": {
+                    "padding": "5px 0px 5px 17px"
+                },
+                "body": {
+                    "padding": "0px 0px 0px 0px"
+                }
+            },
+            "MuiAlert": {
+                "root": {
+                    "marginTop": "`${muiBaseTheme.spacing(1)}px`",
+                    "padding": "0px 5px"
+                },
+                "action": {
+                    "marginRight": "-4px"
+                }
+            },
+            "MuiList": {
+                "subheader": {
+                    "paddingTop": "0px"
+                }
+            },
+            "MuiListSubheader": {
+                "root": {
+                    "fontSize": "1rem",
+                    "color": "#FFFFFF"
+                },
+                "gutters": {
+                    "paddingLeft": "10px"
+                }
+            },
+            "MuiListItem": {
+                "root": {
+                    "paddingTop": "4px",
+                    "paddingBottom": "4px"
+                }
+            },
+            "MuiListItemIcon": {
+                "root": {
+                    "minWidth": "0px",
+                    "color": "#000",
+                    "paddingRight": "8px"
+                }
+            },
+            "MuiBadge": {
+                "root": {
+                    "margin": "10px"
+                }
+            },
+            "MuiPagination": {
+                "ul": {
+                    "justifyContent": "center"
+                }
+            },
+            "MuiCard": {
+                "root": {
+                    "boxShadow": "none"
+                }
+            },
+            "MuiCardContent": {
+                "root": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "padding": "12px",
+                    "paddingRight": "20px",
+                    "&:last-child": {
+                        "paddingBottom": "12px"
+                    }
+                }
+            },
+            "MuiCardHeader": {
+                "title": {
+                    "fontWeight": 600,
+                    "fontSize": "1.25rem",
+                    "margin": "5px"
+                },
+                "root": {
+                    "padding": "12px",
+                    "backgroundColor": "#def3ff"
+                },
+                "action": {
+                    "marginTop": "0px",
+                    "margin": "5px"
+                }
+            },
+            "MuiCardActions": {
+                "root": {
+                    "justifyContent": "flex-start",
+                    "padding": "0px 0px 10px 16px"
+                }
+            },
+            "MuiTableRow": {
+                "root": {
+                    "&:nth-of-type(odd)": {
+                        "backgroundColor": "`${muiBaseTheme.palette.action.hover}`"
+                    },
+                    "lineHeight": "`${siteSettings.rowHeight}px`"
+                }
+            },
+            "MuiPaper": {
+                "rounded": {
+                    "borderRadius": "0px"
+                }
+            },
+            "PrivateSwitchBase": {
+                "root": {
+                    "padding": "0px"
+                }
+            },
+            "MuiDialogTitle": {
+                "root": {
+                    "color": "#fff",
+                    "backgroundColor": "#072f67"
+                }
+            },
+            "DialogTitle": {
+                "root": {
+                    "color": "#fff",
+                    "backgroundColor": "#072f67"
+                }
+            },
+            "MuiSwitch": {
+                "switchBase": {
+                    "padding": "8px"
+                },
+                "colorSecondary": {
+                    "&.Mui-checked": {
+                        "color": "#072f67"
+                    },
+                    "&.Mui-checked + .MuiSwitch-track": {
+                        "backgroundColor": "#072f67"
+                    }
+                }
+            },
+            "MuiFormHelperText": {
+                "root": {
+                    "marginTop": "0px"
+                },
+                "contained": {
+                    "marginLeft": "0px",
+                    "marginRight": "0px"
+                }
+            },
+            "MuiRadio": {
+                "colorSecondary": {
+                    "&.Mui-checked": {
+                        "color": "#072f67"
+                    }
+                }
+            }
+        }
+    }
+}
